@@ -1,0 +1,43 @@
+annotator_notes: Put Rubik's cubes on the coffee table and other toys in the plastic storage box. Pick and place Rubik's cubes, pick and toss other toys.
+seen_objects: [toy block, Rubik's cube 1, Rubik's cube 2, toy car]
+seen_placements: [
+  [toy block, plastic storage box],
+  [Rubik's cube 1, coffee table],
+  [Rubik's cube 2, coffee table],
+  [toy car, plastic storage box],
+]
+seen_primitives: [
+  [toy block, toss],
+  [Rubik's cube 1, place],
+  [Rubik's cube 2, place],
+  [toy car, toss],
+]
+unseen_objects: [Rubik's cube, Rubik's cube 2, Rubik's cube 3, toy car, toy car 2, toy cup, Lego brick, toy fork, toy knife, toy ladle]
+unseen_placements: [
+  [Rubik's cube, coffee table],
+  [Rubik's cube 2, coffee table],
+  [Rubik's cube 3, coffee table],
+  [toy car, plastic storage box],
+  [toy car 2, plastic storage box],
+  [toy cup, plastic storage box],
+  [Lego brick, plastic storage box],
+  [toy fork, plastic storage box],
+  [toy knife, plastic storage box],
+  [toy ladle, plastic storage box],
+]
+receptacles:
+  coffee table:
+    position: [0.610, -0.915]
+    dimensions: [0.9, 0.55]
+    primitive_names: [place]
+    center_offset: [0.0, 0.15]
+    end_effector_offset: 0.55
+    place_height: 0.165
+  plastic storage box:
+    position: [-0.610, -0.915]
+    dimensions: [0.333, 0.245]
+    primitive_names: [place, toss]
+    place_height: -0.05
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]

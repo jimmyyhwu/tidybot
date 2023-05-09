@@ -1,0 +1,49 @@
+annotator_notes: Put clothes in the white laundry basket, bags on the sofa, and snacks in the black storage box. Pick and place clothes and bags, pick and toss snacks.
+seen_objects: [shirt, Adidas drawstring bag, North Face camping bag, chips, pants, candy bar]
+seen_placements: [
+  [shirt, white laundry basket],
+  [Adidas drawstring bag, sofa],
+  [North Face camping bag, sofa],
+  [chips, black storage box],
+  [pants, white laundry basket],
+  [candy bar, black storage box],
+]
+seen_primitives: [
+  [shirt, place],
+  [Adidas drawstring bag, place],
+  [North Face camping bag, place],
+  [chips, toss],
+  [pants, place],
+  [candy bar, toss],
+]
+unseen_objects: [blue shirt, blue jeans, white sock, beige shirt, Stanford tote bag, Nike drawstring bag, packable daypack, Kind snack bar, Quest protein bar, NuGo protein bar]
+unseen_placements: [
+  [blue shirt, white laundry basket],
+  [blue jeans, white laundry basket],
+  [white sock, white laundry basket],
+  [beige shirt, white laundry basket],
+  [Stanford tote bag, sofa],
+  [Nike drawstring bag, sofa],
+  [packable daypack, sofa],
+  [Kind snack bar, black storage box],
+  [Quest protein bar, black storage box],
+  [NuGo protein bar, black storage box],
+]
+receptacles:
+  white laundry basket:
+    position: [-0.610, 0.0]
+    dimensions: [0.44, 0.44]
+    primitive_names: [place, toss]
+    place_height: 0.3
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]
+    primitive_names: [place]
+    center_offset: [0.0, 0.17]
+    end_effector_offset: 0.55
+    place_height: 0.25
+  black storage box:
+    position: [-0.610, -0.610]
+    dimensions: [0.38, 0.33]
+    primitive_names: [place, toss]
+    place_height: 0.12

@@ -1,0 +1,12 @@
+categories:
+- clothing
+- bag
+- snack
+placements:
+  bag: sofa
+  clothing: white laundry basket
+  snack: black storage box
+primitives:
+  bag: place
+  clothing: place
+  snack: toss

@@ -1,0 +1,5413 @@
+- annotator_notes: Put toys in the storage box and fruits on the coffee table.
+  receptacles:
+  - storage box
+  - coffee table
+  room: living room
+  seen_objects:
+  - banana
+  - Lego brick
+  - toy car
+  - apple
+  seen_placements:
+  - - banana
+    - coffee table
+  - - Lego brick
+    - storage box
+  - - toy car
+    - storage box
+  - - apple
+    - coffee table
+  tags:
+  - category
+  unseen_objects:
+  - orange
+  - stuffed animal
+  - peach
+  - Barbie doll
+  unseen_placements:
+  - - orange
+    - coffee table
+  - - stuffed animal
+    - storage box
+  - - peach
+    - coffee table
+  - - Barbie doll
+    - storage box
+- annotator_notes: Put clothes in the basket and toys in the drawer.
+  receptacles:
+  - basket
+  - drawer
+  room: living room
+  seen_objects:
+  - dress
+  - Play-Doh
+  - pants
+  - toy block
+  seen_placements:
+  - - dress
+    - basket
+  - - Play-Doh
+    - drawer
+  - - pants
+    - basket
+  - - toy block
+    - drawer
+  tags:
+  - category
+  unseen_objects:
+  - sweater
+  - khakis
+  - Rubik's cube
+  - toy hammer
+  unseen_placements:
+  - - sweater
+    - basket
+  - - khakis
+    - basket
+  - - Rubik's cube
+    - drawer
+  - - toy hammer
+    - drawer
+- annotator_notes: Put books on the coffee table. Put paper products in the trash
+    can.
+  receptacles:
+  - coffee table
+  - trash can
+  room: living room
+  seen_objects:
+  - history book
+  - cookbook
+  - brochure
+  - paper towel
+  seen_placements:
+  - - history book
+    - coffee table
+  - - cookbook
+    - coffee table
+  - - brochure
+    - trash can
+  - - paper towel
+    - trash can
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - napkin
+  - paper wad
+  - textbook
+  - science fiction book
+  unseen_placements:
+  - - napkin
+    - trash can
+  - - paper wad
+    - trash can
+  - - textbook
+    - coffee table
+  - - science fiction book
+    - coffee table
+- annotator_notes: Put heavy items on the left shelf and light items on the right
+    shelf.
+  receptacles:
+  - left shelf
+  - right shelf
+  room: living room
+  seen_objects:
+  - coaster
+  - feather
+  - dumbbell
+  - cast iron pan
+  seen_placements:
+  - - coaster
+    - right shelf
+  - - feather
+    - right shelf
+  - - dumbbell
+    - left shelf
+  - - cast iron pan
+    - left shelf
+  tags:
+  - attribute
+  unseen_objects:
+  - stone sculpture
+  - rock specimen
+  - tissue paper
+  - scarf
+  unseen_placements:
+  - - stone sculpture
+    - left shelf
+  - - rock specimen
+    - left shelf
+  - - tissue paper
+    - right shelf
+  - - scarf
+    - right shelf
+- annotator_notes: Put stuffed animals on the shelf and other toys in the cabinet.
+  receptacles:
+  - shelf
+  - cabinet
+  room: living room
+  seen_objects:
+  - yo-yo
+  - stuffed rabbit
+  - plush zebra
+  - remote control car
+  seen_placements:
+  - - yo-yo
+    - cabinet
+  - - stuffed rabbit
+    - shelf
+  - - plush zebra
+    - shelf
+  - - remote control car
+    - cabinet
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - wooden color block
+  - toy car
+  - teddy bear
+  - stuffed giraffe
+  unseen_placements:
+  - - wooden color block
+    - cabinet
+  - - toy car
+    - cabinet
+  - - teddy bear
+    - shelf
+  - - stuffed giraffe
+    - shelf
+- annotator_notes: Put plastic items in the left storage box and metal items in the
+    right storage box.
+  receptacles:
+  - left storage box
+  - right storage box
+  room: living room
+  seen_objects:
+  - plastic cup
+  - shampoo bottle
+  - metal sculpture
+  - fire iron
+  seen_placements:
+  - - plastic cup
+    - left storage box
+  - - shampoo bottle
+    - left storage box
+  - - metal sculpture
+    - right storage box
+  - - fire iron
+    - right storage box
+  tags:
+  - attribute
+  unseen_objects:
+  - plastic box
+  - plastic bag
+  - galvanized pail
+  - knife
+  unseen_placements:
+  - - plastic box
+    - left storage box
+  - - plastic bag
+    - left storage box
+  - - galvanized pail
+    - right storage box
+  - - knife
+    - right storage box
+- annotator_notes: Put books and magazines on the coffee table, stuffed animals on
+    the sofa, and other toys in the storage box.
+  receptacles:
+  - coffee table
+  - sofa
+  - storage box
+  room: living room
+  seen_objects:
+  - stuffed koala
+  - toy spatula
+  - Forbes magazine
+  - stuffed lion
+  - dictionary
+  - toy xylophone
+  seen_placements:
+  - - stuffed koala
+    - sofa
+  - - toy spatula
+    - storage box
+  - - Forbes magazine
+    - coffee table
+  - - stuffed lion
+    - sofa
+  - - dictionary
+    - coffee table
+  - - toy xylophone
+    - storage box
+  tags:
+  - category
+  - subcategory
+  - multiple categories
+  unseen_objects:
+  - stuffed sheep
+  - toy pickup truck
+  - toy kazoo
+  - The Economist magazine
+  - encyclopedia
+  - stuffed unicorn
+  unseen_placements:
+  - - stuffed sheep
+    - sofa
+  - - toy pickup truck
+    - storage box
+  - - toy kazoo
+    - storage box
+  - - The Economist magazine
+    - coffee table
+  - - encyclopedia
+    - coffee table
+  - - stuffed unicorn
+    - sofa
+- annotator_notes: Put pillows on the sofa, clothes on the chair, and shoes on the
+    rack.
+  receptacles:
+  - sofa
+  - chair
+  - rack
+  room: living room
+  seen_objects:
+  - rain boots
+  - sneakers
+  - decorative pillow 2
+  - decorative pillow
+  - wool sweater
+  - gym shorts
+  seen_placements:
+  - - rain boots
+    - rack
+  - - sneakers
+    - rack
+  - - decorative pillow 2
+    - sofa
+  - - decorative pillow
+    - sofa
+  - - wool sweater
+    - chair
+  - - gym shorts
+    - chair
+  tags:
+  - category
+  unseen_objects:
+  - tennis shoes
+  - blue jeans
+  - body pillow
+  - body pillow 2
+  - hoodie
+  - sandals
+  unseen_placements:
+  - - tennis shoes
+    - rack
+  - - blue jeans
+    - chair
+  - - body pillow
+    - sofa
+  - - body pillow 2
+    - sofa
+  - - hoodie
+    - chair
+  - - sandals
+    - rack
+- annotator_notes: Put plastic bags in the cardboard box, toys on the coffee table,
+    and snacks in the bowl.
+  receptacles:
+  - cardboard box
+  - coffee table
+  - bowl
+  room: living room
+  seen_objects:
+  - potato chips
+  - bread bag
+  - granola bar
+  - toy plane
+  - Mega Bloks set
+  - plastic bag
+  seen_placements:
+  - - potato chips
+    - bowl
+  - - bread bag
+    - cardboard box
+  - - granola bar
+    - bowl
+  - - toy plane
+    - coffee table
+  - - Mega Bloks set
+    - coffee table
+  - - plastic bag
+    - cardboard box
+  tags:
+  - category
+  unseen_objects:
+  - popcorn
+  - ziplock bag
+  - produce bag
+  - Monopoly board game
+  - graham crackers
+  - toy robot
+  unseen_placements:
+  - - popcorn
+    - bowl
+  - - ziplock bag
+    - cardboard box
+  - - produce bag
+    - cardboard box
+  - - Monopoly board game
+    - coffee table
+  - - graham crackers
+    - bowl
+  - - toy robot
+    - coffee table
+- annotator_notes: Put jackets on the rack, newspapers and magazines on the coffee
+    table, and toys in the drawer.
+  receptacles:
+  - rack
+  - coffee table
+  - drawer
+  room: living room
+  seen_objects:
+  - The Los Angeles Times newspaper
+  - parka
+  - National Geographic magazine
+  - RC car
+  - toy piano
+  - denim jacket
+  seen_placements:
+  - - The Los Angeles Times newspaper
+    - coffee table
+  - - parka
+    - rack
+  - - National Geographic magazine
+    - coffee table
+  - - RC car
+    - drawer
+  - - toy piano
+    - drawer
+  - - denim jacket
+    - rack
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - windbreaker
+  - RC truck
+  - remote control airplane
+  - The Denver Post newspaper
+  - Newsweek magazine
+  - rain jacket
+  unseen_placements:
+  - - windbreaker
+    - rack
+  - - RC truck
+    - drawer
+  - - remote control airplane
+    - drawer
+  - - The Denver Post newspaper
+    - coffee table
+  - - Newsweek magazine
+    - coffee table
+  - - rain jacket
+    - rack
+- annotator_notes: Put fruits on the coffee table, large items in the large storage
+    box, and small items in the cabinet.
+  receptacles:
+  - coffee table
+  - large storage box
+  - cabinet
+  room: living room
+  seen_objects:
+  - bean bag
+  - kiwi
+  - strawberries
+  - coaster
+  - pencil
+  - husband pillow
+  seen_placements:
+  - - bean bag
+    - large storage box
+  - - kiwi
+    - coffee table
+  - - strawberries
+    - coffee table
+  - - coaster
+    - cabinet
+  - - pencil
+    - cabinet
+  - - husband pillow
+    - large storage box
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - floor vase
+  - jar
+  - grapes
+  - pineapple
+  - keychain
+  - toaster oven
+  unseen_placements:
+  - - floor vase
+    - large storage box
+  - - jar
+    - cabinet
+  - - grapes
+    - coffee table
+  - - pineapple
+    - coffee table
+  - - keychain
+    - cabinet
+  - - toaster oven
+    - large storage box
+- annotator_notes: Put DVDs and VHS tapes in the small cardboard box, books in the
+    large cardboard box, and toys in the basket.
+  receptacles:
+  - small cardboard box
+  - large cardboard box
+  - basket
+  room: living room
+  seen_objects:
+  - physics textbook
+  - fitness VHS tape
+  - DVD documentary
+  - RC airplane
+  - graphic novel
+  - Scrabble board game
+  seen_placements:
+  - - physics textbook
+    - large cardboard box
+  - - fitness VHS tape
+    - small cardboard box
+  - - DVD documentary
+    - small cardboard box
+  - - RC airplane
+    - basket
+  - - graphic novel
+    - large cardboard box
+  - - Scrabble board game
+    - basket
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - toy drum
+  - home movie
+  - workbook
+  - Toy Story DVD
+  - gardening book
+  - toy boat
+  unseen_placements:
+  - - toy drum
+    - basket
+  - - home movie
+    - small cardboard box
+  - - workbook
+    - large cardboard box
+  - - Toy Story DVD
+    - small cardboard box
+  - - gardening book
+    - large cardboard box
+  - - toy boat
+    - basket
+- annotator_notes: Put shirts on the sofa, toys in storage box 1, clothes in storage
+    box 2, and snacks on the coffee table.
+  receptacles:
+  - sofa
+  - storage box 1
+  - storage box 2
+  - coffee table
+  room: living room
+  seen_objects:
+  - sweatpants
+  - winter gloves
+  - orange shirt
+  - snickerdoodle cookie
+  - black shirt
+  - jerky
+  - Etch A Sketch
+  - Barbie doll
+  seen_placements:
+  - - sweatpants
+    - storage box 2
+  - - winter gloves
+    - storage box 2
+  - - orange shirt
+    - sofa
+  - - snickerdoodle cookie
+    - coffee table
+  - - black shirt
+    - sofa
+  - - jerky
+    - coffee table
+  - - Etch A Sketch
+    - storage box 1
+  - - Barbie doll
+    - storage box 1
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - yoga pants
+  - stroopwafel
+  - Furby
+  - raincoat
+  - toy truck
+  - graphic tee
+  - pudding cup
+  - long sleeve shirt
+  unseen_placements:
+  - - yoga pants
+    - storage box 2
+  - - stroopwafel
+    - coffee table
+  - - Furby
+    - storage box 1
+  - - raincoat
+    - storage box 2
+  - - toy truck
+    - storage box 1
+  - - graphic tee
+    - sofa
+  - - pudding cup
+    - coffee table
+  - - long sleeve shirt
+    - sofa
+- annotator_notes: Put exercise equipment in the corner, books on the console table,
+    toys on the coffee table, and candy in the basket.
+  receptacles:
+  - corner
+  - console table
+  - coffee table
+  - basket
+  room: living room
+  seen_objects:
+  - Rubik's cube
+  - Reese's candy
+  - encyclopedia
+  - kettlebell
+  - romance novel
+  - resistance bands
+  - toy hammer
+  - Life Savers candy
+  seen_placements:
+  - - Rubik's cube
+    - coffee table
+  - - Reese's candy
+    - basket
+  - - encyclopedia
+    - console table
+  - - kettlebell
+    - corner
+  - - romance novel
+    - console table
+  - - resistance bands
+    - corner
+  - - toy hammer
+    - coffee table
+  - - Life Savers candy
+    - basket
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - Lego set
+  - mint patties
+  - ab wheel
+  - Skittles
+  - jigsaw puzzle
+  - barbell
+  - graphic novel
+  - business book
+  unseen_placements:
+  - - Lego set
+    - coffee table
+  - - mint patties
+    - basket
+  - - ab wheel
+    - corner
+  - - Skittles
+    - basket
+  - - jigsaw puzzle
+    - coffee table
+  - - barbell
+    - corner
+  - - graphic novel
+    - console table
+  - - business book
+    - console table
+- annotator_notes: Put tissue boxes and toys on the shelf, dinnerware in the storage
+    cabinet, bags on the sofa, and clothing in the ottoman.
+  receptacles:
+  - shelf
+  - storage cabinet
+  - sofa
+  - ottoman
+  room: living room
+  seen_objects:
+  - bodycon dress
+  - sweater
+  - tissue box
+  - Monopoly board game
+  - drinking glass
+  - duffel bag
+  - dessert plate
+  - handbag
+  seen_placements:
+  - - bodycon dress
+    - ottoman
+  - - sweater
+    - ottoman
+  - - tissue box
+    - shelf
+  - - Monopoly board game
+    - shelf
+  - - drinking glass
+    - storage cabinet
+  - - duffel bag
+    - sofa
+  - - dessert plate
+    - storage cabinet
+  - - handbag
+    - sofa
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - Batman action figure
+  - camera backpack
+  - scarf
+  - makeup bag
+  - Kleenex box
+  - tank top
+  - soup bowl
+  - serving bowl
+  unseen_placements:
+  - - Batman action figure
+    - shelf
+  - - camera backpack
+    - sofa
+  - - scarf
+    - ottoman
+  - - makeup bag
+    - sofa
+  - - Kleenex box
+    - shelf
+  - - tank top
+    - ottoman
+  - - soup bowl
+    - storage cabinet
+  - - serving bowl
+    - storage cabinet
+- annotator_notes: Put electronics on the coffee table, jackets on the sofa, shoes
+    on the mat, and art supplies in the box.
+  receptacles:
+  - coffee table
+  - sofa
+  - mat
+  - box
+  room: living room
+  seen_objects:
+  - Samsung tablet
+  - acrylic paint
+  - clogs
+  - running shoes
+  - padded parka
+  - iPhone
+  - ski jacket
+  - paintbrush
+  seen_placements:
+  - - Samsung tablet
+    - coffee table
+  - - acrylic paint
+    - box
+  - - clogs
+    - mat
+  - - running shoes
+    - mat
+  - - padded parka
+    - sofa
+  - - iPhone
+    - coffee table
+  - - ski jacket
+    - sofa
+  - - paintbrush
+    - box
+  tags:
+  - category
+  unseen_objects:
+  - pumps
+  - rain jacket
+  - ballet flats
+  - painting canvas
+  - Bose headphones
+  - Sonos speakers
+  - sketch book
+  - pea coat
+  unseen_placements:
+  - - pumps
+    - mat
+  - - rain jacket
+    - sofa
+  - - ballet flats
+    - mat
+  - - painting canvas
+    - box
+  - - Bose headphones
+    - coffee table
+  - - Sonos speakers
+    - coffee table
+  - - sketch book
+    - box
+  - - pea coat
+    - sofa
+- annotator_notes: Put stationery on the desk, board games in the storage box, tools
+    in the drawer, and sporting equipment in the storage rack.
+  receptacles:
+  - desk
+  - storage box
+  - drawer
+  - storage rack
+  room: living room
+  seen_objects:
+  - stapler
+  - yoga mat
+  - Scrabble
+  - wrench
+  - highlighter
+  - golf club
+  - Chutes and Ladders
+  - pliers
+  seen_placements:
+  - - stapler
+    - desk
+  - - yoga mat
+    - storage rack
+  - - Scrabble
+    - storage box
+  - - wrench
+    - drawer
+  - - highlighter
+    - desk
+  - - golf club
+    - storage rack
+  - - Chutes and Ladders
+    - storage box
+  - - pliers
+    - drawer
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - volleyball
+  - Scotch tape
+  - hammer
+  - rollerblades
+  - box cutter
+  - hole punch
+  - chess set
+  - Connect Four
+  unseen_placements:
+  - - volleyball
+    - storage rack
+  - - Scotch tape
+    - desk
+  - - hammer
+    - drawer
+  - - rollerblades
+    - storage rack
+  - - box cutter
+    - drawer
+  - - hole punch
+    - desk
+  - - chess set
+    - storage box
+  - - Connect Four
+    - storage box
+- annotator_notes: Put cleaning supplies in the bottom cabinet, toys in the top cabinet,
+    trophies and medals on the fireplace, and snow gear in the closet.
+  receptacles:
+  - bottom cabinet
+  - top cabinet
+  - fireplace
+  - closet
+  room: living room
+  seen_objects:
+  - Boy Scouts medal
+  - soccer trophy
+  - sponge
+  - Tickle Me Elmo
+  - neck gaiter
+  - dish detergent
+  - ski goggles
+  - toy fire truck
+  seen_placements:
+  - - Boy Scouts medal
+    - fireplace
+  - - soccer trophy
+    - fireplace
+  - - sponge
+    - bottom cabinet
+  - - Tickle Me Elmo
+    - top cabinet
+  - - neck gaiter
+    - closet
+  - - dish detergent
+    - bottom cabinet
+  - - ski goggles
+    - closet
+  - - toy fire truck
+    - top cabinet
+  tags:
+  - category
+  - multiple categories
+  - function
+  unseen_objects:
+  - snow pants
+  - Tamagotchi
+  - orchestra trophy
+  - Nerf blaster toy
+  - all-purpose cleaner
+  - gloves
+  - Mr Clean Magic Eraser
+  - art prize
+  unseen_placements:
+  - - snow pants
+    - closet
+  - - Tamagotchi
+    - top cabinet
+  - - orchestra trophy
+    - fireplace
+  - - Nerf blaster toy
+    - top cabinet
+  - - all-purpose cleaner
+    - bottom cabinet
+  - - gloves
+    - closet
+  - - Mr Clean Magic Eraser
+    - bottom cabinet
+  - - art prize
+    - fireplace
+- annotator_notes: Put outerwear in the closet, toys in the chest, cleaning supplies
+    in the cabinet, shoes on the rack, and food on the side table.
+  receptacles:
+  - closet
+  - chest
+  - cabinet
+  - rack
+  - side table
+  room: living room
+  seen_objects:
+  - remote control car
+  - trail mix
+  - glass cleaner
+  - pea coat
+  - sandals
+  - microfiber towel
+  - Mega Bloks set
+  - Patagonia puffer jacket
+  - oatmeal raisin cookies
+  - Nike shoes
+  seen_placements:
+  - - remote control car
+    - chest
+  - - trail mix
+    - side table
+  - - glass cleaner
+    - cabinet
+  - - pea coat
+    - closet
+  - - sandals
+    - rack
+  - - microfiber towel
+    - cabinet
+  - - Mega Bloks set
+    - chest
+  - - Patagonia puffer jacket
+    - closet
+  - - oatmeal raisin cookies
+    - side table
+  - - Nike shoes
+    - rack
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - Go Fish card game
+  - meringue cookies
+  - North Face jacket
+  - carpet cleaner
+  - nuts
+  - Adidas Cloudfoam shoes
+  - biker jacket
+  - disinfectant spray
+  - toy golf set
+  - tennis shoes
+  unseen_placements:
+  - - Go Fish card game
+    - chest
+  - - meringue cookies
+    - side table
+  - - North Face jacket
+    - closet
+  - - carpet cleaner
+    - cabinet
+  - - nuts
+    - side table
+  - - Adidas Cloudfoam shoes
+    - rack
+  - - biker jacket
+    - closet
+  - - disinfectant spray
+    - cabinet
+  - - toy golf set
+    - chest
+  - - tennis shoes
+    - rack
+- annotator_notes: Put plastic toys in the left storage box, wooden toys in the right
+    storage box, clothes in the laundry basket, stuffed animals on the chair, and
+    water bottles on the coffee table.
+  receptacles:
+  - left storage box
+  - right storage box
+  - laundry basket
+  - chair
+  - coffee table
+  room: living room
+  seen_objects:
+  - toy spatula
+  - Barbie doll
+  - stuffed sheep
+  - wooden train set
+  - pants
+  - Nalgene bottle
+  - blue wooden block
+  - shawl
+  - Hydro Flask bottle
+  - stuffed elephant
+  seen_placements:
+  - - toy spatula
+    - left storage box
+  - - Barbie doll
+    - left storage box
+  - - stuffed sheep
+    - chair
+  - - wooden train set
+    - right storage box
+  - - pants
+    - laundry basket
+  - - Nalgene bottle
+    - coffee table
+  - - blue wooden block
+    - right storage box
+  - - shawl
+    - laundry basket
+  - - Hydro Flask bottle
+    - coffee table
+  - - stuffed elephant
+    - chair
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - wooden horse
+  - sweatpants
+  - teddy bear
+  - bathrobe
+  - wooden dollhouse
+  - stuffed monkey
+  - Rubik's cube
+  - CamelBak bottle
+  - Contigo bottle
+  - Lego car
+  unseen_placements:
+  - - wooden horse
+    - right storage box
+  - - sweatpants
+    - laundry basket
+  - - teddy bear
+    - chair
+  - - bathrobe
+    - laundry basket
+  - - wooden dollhouse
+    - right storage box
+  - - stuffed monkey
+    - chair
+  - - Rubik's cube
+    - left storage box
+  - - CamelBak bottle
+    - coffee table
+  - - Contigo bottle
+    - coffee table
+  - - Lego car
+    - left storage box
+- annotator_notes: Put camping equipment in the big storage chest, stuffed animals
+    in the small storage chest, hats in the drawer, other clothing in the box, and
+    disposable gloves in the trash can.
+  receptacles:
+  - big storage chest
+  - small storage chest
+  - drawer
+  - box
+  - trash can
+  room: living room
+  seen_objects:
+  - beanie
+  - skirt
+  - black nitrile glove
+  - tank top
+  - stuffed horse
+  - baseball cap
+  - camping stove
+  - plush giraffe
+  - blue nitrile glove
+  - sleeping bag
+  seen_placements:
+  - - beanie
+    - drawer
+  - - skirt
+    - box
+  - - black nitrile glove
+    - trash can
+  - - tank top
+    - box
+  - - stuffed horse
+    - small storage chest
+  - - baseball cap
+    - drawer
+  - - camping stove
+    - big storage chest
+  - - plush giraffe
+    - small storage chest
+  - - blue nitrile glove
+    - trash can
+  - - sleeping bag
+    - big storage chest
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - wedding dress
+  - bucket hat
+  - cowboy hat
+  - latex glove 2
+  - first aid kit
+  - tent
+  - latex glove
+  - overalls
+  - stuffed lion
+  - stuffed cow
+  unseen_placements:
+  - - wedding dress
+    - box
+  - - bucket hat
+    - drawer
+  - - cowboy hat
+    - drawer
+  - - latex glove 2
+    - trash can
+  - - first aid kit
+    - big storage chest
+  - - tent
+    - big storage chest
+  - - latex glove
+    - trash can
+  - - overalls
+    - box
+  - - stuffed lion
+    - small storage chest
+  - - stuffed cow
+    - small storage chest
+- annotator_notes: Put newspapers on the console table, magazines on the coffee table,
+    books on the shelf, snacks in the bowl, and electronics in the drawer.
+  receptacles:
+  - console table
+  - coffee table
+  - shelf
+  - bowl
+  - drawer
+  room: living room
+  seen_objects:
+  - comic book
+  - People magazine
+  - Nintendo Game Boy
+  - digital camera
+  - Rice Krispies Treat
+  - The Seattle Times newspaper
+  - brownie
+  - poetry book
+  - Rolling Stone magazine
+  - The Washington Post newspaper
+  seen_placements:
+  - - comic book
+    - shelf
+  - - People magazine
+    - coffee table
+  - - Nintendo Game Boy
+    - drawer
+  - - digital camera
+    - drawer
+  - - Rice Krispies Treat
+    - bowl
+  - - The Seattle Times newspaper
+    - console table
+  - - brownie
+    - bowl
+  - - poetry book
+    - shelf
+  - - Rolling Stone magazine
+    - coffee table
+  - - The Washington Post newspaper
+    - console table
+  tags:
+  - category
+  unseen_objects:
+  - mixed fruit cup
+  - smartphone
+  - The Miami Herald newspaper
+  - The San Francisco Chronicle newspaper
+  - non-fiction book
+  - science book
+  - laptop
+  - saltine crackers
+  - Women's Health magazine
+  - Elle magazine
+  unseen_placements:
+  - - mixed fruit cup
+    - bowl
+  - - smartphone
+    - drawer
+  - - The Miami Herald newspaper
+    - console table
+  - - The San Francisco Chronicle newspaper
+    - console table
+  - - non-fiction book
+    - shelf
+  - - science book
+    - shelf
+  - - laptop
+    - drawer
+  - - saltine crackers
+    - bowl
+  - - Women's Health magazine
+    - coffee table
+  - - Elle magazine
+    - coffee table
+- annotator_notes: Put newspapers and magazines in the recycling bin, toys in the
+    drawer, drinks on the side table, stationery on the desk, and tools in the cabinet.
+  receptacles:
+  - recycling bin
+  - drawer
+  - side table
+  - desk
+  - cabinet
+  room: living room
+  seen_objects:
+  - newspaper
+  - stapler
+  - hammer
+  - toy science kit
+  - Lipton iced tea
+  - Zebra highlighter
+  - board game
+  - almond milk
+  - sports magazine
+  - chisel
+  seen_placements:
+  - - newspaper
+    - recycling bin
+  - - stapler
+    - desk
+  - - hammer
+    - cabinet
+  - - toy science kit
+    - drawer
+  - - Lipton iced tea
+    - side table
+  - - Zebra highlighter
+    - desk
+  - - board game
+    - drawer
+  - - almond milk
+    - side table
+  - - sports magazine
+    - recycling bin
+  - - chisel
+    - cabinet
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - bottled water
+  - Elmer's glue
+  - orange soda
+  - tape measure
+  - USA Today newspaper
+  - screwdriver
+  - toy paint set
+  - trading cards
+  - ballpoint pen
+  - travel magazine
+  unseen_placements:
+  - - bottled water
+    - side table
+  - - Elmer's glue
+    - desk
+  - - orange soda
+    - side table
+  - - tape measure
+    - cabinet
+  - - USA Today newspaper
+    - recycling bin
+  - - screwdriver
+    - cabinet
+  - - toy paint set
+    - drawer
+  - - trading cards
+    - drawer
+  - - ballpoint pen
+    - desk
+  - - travel magazine
+    - recycling bin
+- annotator_notes: Put toys in the ottoman, snacks on the coffee table, dinnerware
+    on the side table, clothes on the sofa, and electronics on the desk.
+  receptacles:
+  - ottoman
+  - coffee table
+  - side table
+  - sofa
+  - desk
+  room: living room
+  seen_objects:
+  - Apple smartphone
+  - gray hoodie
+  - microwave popcorn
+  - dinner plate
+  - Google Chromecast
+  - dried apricots
+  - Transformers toy
+  - blue sweater
+  - dessert bowl
+  - Fisher-Price stacking toy
+  seen_placements:
+  - - Apple smartphone
+    - desk
+  - - gray hoodie
+    - sofa
+  - - microwave popcorn
+    - coffee table
+  - - dinner plate
+    - side table
+  - - Google Chromecast
+    - desk
+  - - dried apricots
+    - coffee table
+  - - Transformers toy
+    - ottoman
+  - - blue sweater
+    - sofa
+  - - dessert bowl
+    - side table
+  - - Fisher-Price stacking toy
+    - ottoman
+  tags:
+  - category
+  unseen_objects:
+  - Harry Potter vinyl figure
+  - fleece jacket
+  - electric train set
+  - Nintendo Switch
+  - pasta bowl
+  - Dell laptop
+  - Snack Pack pudding
+  - Nature Valley granola bar
+  - champagne glass
+  - Patagonia jacket
+  unseen_placements:
+  - - Harry Potter vinyl figure
+    - ottoman
+  - - fleece jacket
+    - sofa
+  - - electric train set
+    - ottoman
+  - - Nintendo Switch
+    - desk
+  - - pasta bowl
+    - side table
+  - - Dell laptop
+    - desk
+  - - Snack Pack pudding
+    - coffee table
+  - - Nature Valley granola bar
+    - coffee table
+  - - champagne glass
+    - side table
+  - - Patagonia jacket
+    - sofa
+- annotator_notes: Put light-colored clothes in the hamper and dark-colored clothes
+    in the laundry basket.
+  receptacles:
+  - hamper
+  - laundry basket
+  room: bedroom
+  seen_objects:
+  - white t-shirt
+  - ivory blouse
+  - dark brown leather jacket
+  - black t-shirt
+  seen_placements:
+  - - white t-shirt
+    - hamper
+  - - ivory blouse
+    - hamper
+  - - dark brown leather jacket
+    - laundry basket
+  - - black t-shirt
+    - laundry basket
+  tags:
+  - attribute
+  unseen_objects:
+  - light khaki shorts
+  - dark maroon scarf
+  - beige pants
+  - charcoal gray sweater
+  unseen_placements:
+  - - light khaki shorts
+    - hamper
+  - - dark maroon scarf
+    - laundry basket
+  - - beige pants
+    - hamper
+  - - charcoal gray sweater
+    - laundry basket
+- annotator_notes: Put winter clothes in the storage chest and summer clothes in the
+    closet.
+  receptacles:
+  - storage chest
+  - closet
+  room: bedroom
+  seen_objects:
+  - sundress
+  - pea coat
+  - earmuffs
+  - tank top
+  seen_placements:
+  - - sundress
+    - closet
+  - - pea coat
+    - storage chest
+  - - earmuffs
+    - storage chest
+  - - tank top
+    - closet
+  tags:
+  - function
+  unseen_objects:
+  - fleece jacket
+  - bathing suit
+  - shorts
+  - insulated pants
+  unseen_placements:
+  - - fleece jacket
+    - storage chest
+  - - bathing suit
+    - closet
+  - - shorts
+    - closet
+  - - insulated pants
+    - storage chest
+- annotator_notes: Put formal clothes on the bed and casual clothes in the laundry
+    basket.
+  receptacles:
+  - bed
+  - laundry basket
+  room: bedroom
+  seen_objects:
+  - tuxedo jacket
+  - leggings
+  - hoodie
+  - dress shirt
+  seen_placements:
+  - - tuxedo jacket
+    - bed
+  - - leggings
+    - laundry basket
+  - - hoodie
+    - laundry basket
+  - - dress shirt
+    - bed
+  tags:
+  - function
+  unseen_objects:
+  - sweatpants
+  - evening gown
+  - dress pants
+  - cargo pants
+  unseen_placements:
+  - - sweatpants
+    - laundry basket
+  - - evening gown
+    - bed
+  - - dress pants
+    - bed
+  - - cargo pants
+    - laundry basket
+- annotator_notes: Put clean clothes on the bed and dirty clothes in the hamper.
+  receptacles:
+  - bed
+  - hamper
+  room: bedroom
+  seen_objects:
+  - clean pants
+  - muddy shorts
+  - soiled shirt
+  - clean shirt
+  seen_placements:
+  - - clean pants
+    - bed
+  - - muddy shorts
+    - hamper
+  - - soiled shirt
+    - hamper
+  - - clean shirt
+    - bed
+  tags:
+  - attribute
+  unseen_objects:
+  - stained shirt
+  - clean shorts
+  - dirty jacket
+  - fresh shirt
+  unseen_placements:
+  - - stained shirt
+    - hamper
+  - - clean shorts
+    - bed
+  - - dirty jacket
+    - hamper
+  - - fresh shirt
+    - bed
+- annotator_notes: Put bedding in the underbed storage and clothes on the chair.
+  receptacles:
+  - underbed storage
+  - chair
+  room: bedroom
+  seen_objects:
+  - t-shirt
+  - tracksuit
+  - duvet cover
+  - bed sheets
+  seen_placements:
+  - - t-shirt
+    - chair
+  - - tracksuit
+    - chair
+  - - duvet cover
+    - underbed storage
+  - - bed sheets
+    - underbed storage
+  tags:
+  - category
+  unseen_objects:
+  - bed skirt
+  - tank top
+  - blanket
+  - hoodie
+  unseen_placements:
+  - - bed skirt
+    - underbed storage
+  - - tank top
+    - chair
+  - - blanket
+    - underbed storage
+  - - hoodie
+    - chair
+- annotator_notes: Put outerwear in the closet and other clothes on the bed.
+  receptacles:
+  - closet
+  - bed
+  room: bedroom
+  seen_objects:
+  - ski jacket
+  - trench coat
+  - blouse
+  - tights
+  seen_placements:
+  - - ski jacket
+    - closet
+  - - trench coat
+    - closet
+  - - blouse
+    - bed
+  - - tights
+    - bed
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - down jacket
+  - tank top
+  - button-up shirt
+  - parka
+  unseen_placements:
+  - - down jacket
+    - closet
+  - - tank top
+    - bed
+  - - button-up shirt
+    - bed
+  - - parka
+    - closet
+- annotator_notes: Put shirts on the bed, jackets and pants on the chair, and bags
+    on the shelf.
+  receptacles:
+  - bed
+  - chair
+  - shelf
+  room: bedroom
+  seen_objects:
+  - backpack
+  - windbreaker
+  - skinny jeans
+  - book bag
+  - t-shirt
+  - blue shirt
+  seen_placements:
+  - - backpack
+    - shelf
+  - - windbreaker
+    - chair
+  - - skinny jeans
+    - chair
+  - - book bag
+    - shelf
+  - - t-shirt
+    - bed
+  - - blue shirt
+    - bed
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - wool coat
+  - long sleeve shirt
+  - daypack
+  - cargo pants
+  - laptop bag
+  - shirt
+  unseen_placements:
+  - - wool coat
+    - chair
+  - - long sleeve shirt
+    - bed
+  - - daypack
+    - shelf
+  - - cargo pants
+    - chair
+  - - laptop bag
+    - shelf
+  - - shirt
+    - bed
+- annotator_notes: Put textbooks and pencils in the backpack, clothes on the bed,
+    and pillows in the basket.
+  receptacles:
+  - backpack
+  - bed
+  - basket
+  room: bedroom
+  seen_objects:
+  - biology textbook
+  - pillow 2
+  - chinos
+  - blouse
+  - pillow
+  - mechanical pencil
+  seen_placements:
+  - - biology textbook
+    - backpack
+  - - pillow 2
+    - basket
+  - - chinos
+    - bed
+  - - blouse
+    - bed
+  - - pillow
+    - basket
+  - - mechanical pencil
+    - backpack
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - economics textbook
+  - leggings
+  - shorts
+  - body pillow
+  - down pillow
+  - pencil
+  unseen_placements:
+  - - economics textbook
+    - backpack
+  - - leggings
+    - bed
+  - - shorts
+    - bed
+  - - body pillow
+    - basket
+  - - down pillow
+    - basket
+  - - pencil
+    - backpack
+- annotator_notes: Put pillows on the bed, blankets in the laundry basket, and clothes
+    in the hamper.
+  receptacles:
+  - bed
+  - laundry basket
+  - hamper
+  room: bedroom
+  seen_objects:
+  - socks
+  - button-down shirt
+  - fleece blanket
+  - throw blanket
+  - pillow
+  - pillow 2
+  seen_placements:
+  - - socks
+    - hamper
+  - - button-down shirt
+    - hamper
+  - - fleece blanket
+    - laundry basket
+  - - throw blanket
+    - laundry basket
+  - - pillow
+    - bed
+  - - pillow 2
+    - bed
+  tags:
+  - category
+  unseen_objects:
+  - polo shirt
+  - comforter
+  - bootcut jeans
+  - satin pillow
+  - knitted blanket
+  - satin pillow 2
+  unseen_placements:
+  - - polo shirt
+    - hamper
+  - - comforter
+    - laundry basket
+  - - bootcut jeans
+    - hamper
+  - - satin pillow
+    - bed
+  - - knitted blanket
+    - laundry basket
+  - - satin pillow 2
+    - bed
+- annotator_notes: Put books and toys on the shelf, food on the desk, and magazines
+    in the backpack.
+  receptacles:
+  - shelf
+  - desk
+  - backpack
+  room: bedroom
+  seen_objects:
+  - textbook
+  - fruit snacks
+  - Better Homes and Gardens magazine
+  - toy truck
+  - Architectural Digest magazine
+  - hamburger
+  seen_placements:
+  - - textbook
+    - shelf
+  - - fruit snacks
+    - desk
+  - - Better Homes and Gardens magazine
+    - backpack
+  - - toy truck
+    - shelf
+  - - Architectural Digest magazine
+    - backpack
+  - - hamburger
+    - desk
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - poetry book
+  - toy scissors
+  - ESPN magazine
+  - soda can
+  - Time magazine
+  - pizza slice
+  unseen_placements:
+  - - poetry book
+    - shelf
+  - - toy scissors
+    - shelf
+  - - ESPN magazine
+    - backpack
+  - - soda can
+    - desk
+  - - Time magazine
+    - backpack
+  - - pizza slice
+    - desk
+- annotator_notes: Put gloves and hats in the top drawer, socks and shirts in the
+    middle drawer, and other clothing in the bottom drawer.
+  receptacles:
+  - top drawer
+  - middle drawer
+  - bottom drawer
+  room: bedroom
+  seen_objects:
+  - leather gloves
+  - dress
+  - skirts
+  - polo shirt
+  - beanie
+  - Nike socks
+  seen_placements:
+  - - leather gloves
+    - top drawer
+  - - dress
+    - bottom drawer
+  - - skirts
+    - bottom drawer
+  - - polo shirt
+    - middle drawer
+  - - beanie
+    - top drawer
+  - - Nike socks
+    - middle drawer
+  tags:
+  - category
+  - multiple categories
+  - subcategory
+  unseen_objects:
+  - sweater
+  - dress socks
+  - driving gloves
+  - flannel shirt
+  - cowboy hat
+  - jeans
+  unseen_placements:
+  - - sweater
+    - bottom drawer
+  - - dress socks
+    - middle drawer
+  - - driving gloves
+    - top drawer
+  - - flannel shirt
+    - middle drawer
+  - - cowboy hat
+    - top drawer
+  - - jeans
+    - bottom drawer
+- annotator_notes: Put winter clothes in the bottom drawer, shirts in the top drawer,
+    and other clothes in the middle drawer.
+  receptacles:
+  - bottom drawer
+  - top drawer
+  - middle drawer
+  room: bedroom
+  seen_objects:
+  - fleece jacket
+  - wool sweater
+  - red t-shirt
+  - green t-shirt
+  - khakis
+  - shorts
+  seen_placements:
+  - - fleece jacket
+    - bottom drawer
+  - - wool sweater
+    - bottom drawer
+  - - red t-shirt
+    - top drawer
+  - - green t-shirt
+    - top drawer
+  - - khakis
+    - middle drawer
+  - - shorts
+    - middle drawer
+  tags:
+  - category
+  - function
+  - subcategory
+  unseen_objects:
+  - thick socks
+  - graphic tee
+  - parka
+  - yoga pants
+  - baseball cap
+  - Disney t-shirt
+  unseen_placements:
+  - - thick socks
+    - bottom drawer
+  - - graphic tee
+    - top drawer
+  - - parka
+    - bottom drawer
+  - - yoga pants
+    - middle drawer
+  - - baseball cap
+    - middle drawer
+  - - Disney t-shirt
+    - top drawer
+- annotator_notes: Put jackets and pants on the chair, books and stationery on the
+    shelf, toys on the desk, and bedding on the bed.
+  receptacles:
+  - chair
+  - shelf
+  - desk
+  - bed
+  room: bedroom
+  seen_objects:
+  - kaleidoscope
+  - fidget spinner
+  - Ticonderoga pencil
+  - pillowcase
+  - math textbook
+  - throw blanket
+  - rain jacket
+  - jeans
+  seen_placements:
+  - - kaleidoscope
+    - desk
+  - - fidget spinner
+    - desk
+  - - Ticonderoga pencil
+    - shelf
+  - - pillowcase
+    - bed
+  - - math textbook
+    - shelf
+  - - throw blanket
+    - bed
+  - - rain jacket
+    - chair
+  - - jeans
+    - chair
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - pencil eraser
+  - Moleskine notebook
+  - spinning top
+  - quilt
+  - bedspread
+  - Magic 8 Ball
+  - bomber jacket
+  - khakis
+  unseen_placements:
+  - - pencil eraser
+    - shelf
+  - - Moleskine notebook
+    - shelf
+  - - spinning top
+    - desk
+  - - quilt
+    - bed
+  - - bedspread
+    - bed
+  - - Magic 8 Ball
+    - desk
+  - - bomber jacket
+    - chair
+  - - khakis
+    - chair
+- annotator_notes: Put light-colored clothes in the top drawer, dark-colored clothes
+    in the bottom drawer, bedding in the closet, and art supplies in the storage box.
+  receptacles:
+  - top drawer
+  - bottom drawer
+  - closet
+  - storage box
+  room: bedroom
+  seen_objects:
+  - cream pants
+  - black socks
+  - dark blue shirt
+  - coloring book
+  - mattress pad
+  - paint set
+  - white shirt
+  - down blanket
+  seen_placements:
+  - - cream pants
+    - top drawer
+  - - black socks
+    - bottom drawer
+  - - dark blue shirt
+    - bottom drawer
+  - - coloring book
+    - storage box
+  - - mattress pad
+    - closet
+  - - paint set
+    - storage box
+  - - white shirt
+    - top drawer
+  - - down blanket
+    - closet
+  tags:
+  - category
+  - attribute
+  - function
+  unseen_objects:
+  - quilt
+  - duvet cover
+  - coloring pencils
+  - dark gray jeans
+  - khaki pants
+  - sketch pad
+  - white socks
+  - black shirt
+  unseen_placements:
+  - - quilt
+    - closet
+  - - duvet cover
+    - closet
+  - - coloring pencils
+    - storage box
+  - - dark gray jeans
+    - bottom drawer
+  - - khaki pants
+    - top drawer
+  - - sketch pad
+    - storage box
+  - - white socks
+    - top drawer
+  - - black shirt
+    - bottom drawer
+- annotator_notes: Put paper in the recycling bin, clothes in the dresser, bags in
+    the storage chest, and books on the desk.
+  receptacles:
+  - recycling bin
+  - dresser
+  - storage chest
+  - desk
+  room: bedroom
+  seen_objects:
+  - laptop shoulder bag
+  - Mexican cookbook
+  - leggings
+  - envelope
+  - product catalog
+  - travel backpack
+  - mystery book
+  - socks
+  seen_placements:
+  - - laptop shoulder bag
+    - storage chest
+  - - Mexican cookbook
+    - desk
+  - - leggings
+    - dresser
+  - - envelope
+    - recycling bin
+  - - product catalog
+    - recycling bin
+  - - travel backpack
+    - storage chest
+  - - mystery book
+    - desk
+  - - socks
+    - dresser
+  tags:
+  - category
+  unseen_objects:
+  - Roman history book
+  - drawstring backpack
+  - phone book
+  - paper bag
+  - gardening book
+  - climbing backpack
+  - shorts
+  - cardigan
+  unseen_placements:
+  - - Roman history book
+    - desk
+  - - drawstring backpack
+    - storage chest
+  - - phone book
+    - recycling bin
+  - - paper bag
+    - recycling bin
+  - - gardening book
+    - desk
+  - - climbing backpack
+    - storage chest
+  - - shorts
+    - dresser
+  - - cardigan
+    - dresser
+- annotator_notes: Put food in the trash can, books on the side table, jackets in
+    the closet, and other clothing on the chair.
+  receptacles:
+  - trash can
+  - side table
+  - closet
+  - chair
+  room: bedroom
+  seen_objects:
+  - business textbook
+  - strawberry jam
+  - North Face parka
+  - turtleneck shirt
+  - ice cream
+  - corduroy pants
+  - self-help book
+  - leather jacket
+  seen_placements:
+  - - business textbook
+    - side table
+  - - strawberry jam
+    - trash can
+  - - North Face parka
+    - closet
+  - - turtleneck shirt
+    - chair
+  - - ice cream
+    - trash can
+  - - corduroy pants
+    - chair
+  - - self-help book
+    - side table
+  - - leather jacket
+    - closet
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - Canada Goose jacket
+  - joggers
+  - law book
+  - caramel sauce
+  - law book 2
+  - brussels sprouts
+  - raincoat
+  - camisole
+  unseen_placements:
+  - - Canada Goose jacket
+    - closet
+  - - joggers
+    - chair
+  - - law book
+    - side table
+  - - caramel sauce
+    - trash can
+  - - law book 2
+    - side table
+  - - brussels sprouts
+    - trash can
+  - - raincoat
+    - closet
+  - - camisole
+    - chair
+- annotator_notes: Put dresses on the bed, shoes in the bottom drawer, socks in the
+    top drawer, and other clothes on the shelf.
+  receptacles:
+  - bed
+  - bottom drawer
+  - top drawer
+  - shelf
+  room: bedroom
+  seen_objects:
+  - strapless dress
+  - ankle socks
+  - yellow shirt
+  - wrap dress
+  - loafers
+  - navy blazer
+  - hiking socks
+  - boat shoes
+  seen_placements:
+  - - strapless dress
+    - bed
+  - - ankle socks
+    - top drawer
+  - - yellow shirt
+    - shelf
+  - - wrap dress
+    - bed
+  - - loafers
+    - bottom drawer
+  - - navy blazer
+    - shelf
+  - - hiking socks
+    - top drawer
+  - - boat shoes
+    - bottom drawer
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - Crocs
+  - red dress
+  - crew socks
+  - snow boots
+  - dress shirt
+  - black socks
+  - polo shirt
+  - blue dress
+  unseen_placements:
+  - - Crocs
+    - bottom drawer
+  - - red dress
+    - bed
+  - - crew socks
+    - top drawer
+  - - snow boots
+    - bottom drawer
+  - - dress shirt
+    - shelf
+  - - black socks
+    - top drawer
+  - - polo shirt
+    - shelf
+  - - blue dress
+    - bed
+- annotator_notes: Put light-colored clothes in the large hamper, dark-colored clothes
+    in the small hamper, socks in the plastic box, and shoes on the rack.
+  receptacles:
+  - large hamper
+  - small hamper
+  - plastic box
+  - rack
+  room: bedroom
+  seen_objects:
+  - light yellow tank top
+  - dark teal blazer
+  - flip-flops
+  - Nike socks
+  - toe socks
+  - hiking boots
+  - brown cardigan
+  - beige pants
+  seen_placements:
+  - - light yellow tank top
+    - large hamper
+  - - dark teal blazer
+    - small hamper
+  - - flip-flops
+    - rack
+  - - Nike socks
+    - plastic box
+  - - toe socks
+    - plastic box
+  - - hiking boots
+    - rack
+  - - brown cardigan
+    - small hamper
+  - - beige pants
+    - large hamper
+  tags:
+  - category
+  - attribute
+  - subcategory
+  unseen_objects:
+  - peach sundress
+  - thermal socks
+  - burgundy blouse
+  - cross-training shoes
+  - sneakers
+  - light coral blouse
+  - dark plum dress
+  - dress socks
+  unseen_placements:
+  - - peach sundress
+    - large hamper
+  - - thermal socks
+    - plastic box
+  - - burgundy blouse
+    - small hamper
+  - - cross-training shoes
+    - rack
+  - - sneakers
+    - rack
+  - - light coral blouse
+    - large hamper
+  - - dark plum dress
+    - small hamper
+  - - dress socks
+    - plastic box
+- annotator_notes: Put electronics on the desk, sports equipment in the closet, jewelry
+    in the storage box, clean clothes on the bed, and dirty clothes in the hamper.
+  receptacles:
+  - desk
+  - closet
+  - storage box
+  - bed
+  - hamper
+  room: bedroom
+  seen_objects:
+  - Samsung Galaxy phone
+  - exercise ball
+  - necklace
+  - clean t-shirt
+  - clean pants
+  - headphones
+  - muddy jeans
+  - worn t-shirt
+  - baseball bat
+  - tiara
+  seen_placements:
+  - - Samsung Galaxy phone
+    - desk
+  - - exercise ball
+    - closet
+  - - necklace
+    - storage box
+  - - clean t-shirt
+    - bed
+  - - clean pants
+    - bed
+  - - headphones
+    - desk
+  - - muddy jeans
+    - hamper
+  - - worn t-shirt
+    - hamper
+  - - baseball bat
+    - closet
+  - - tiara
+    - storage box
+  tags:
+  - category
+  - attribute
+  - function
+  unseen_objects:
+  - anklet
+  - dirty shorts
+  - Amazon Fire tablet
+  - clean leggings
+  - clean sweater
+  - earrings
+  - stained shirt
+  - Google Pixel phone
+  - skateboard
+  - tennis racket
+  unseen_placements:
+  - - anklet
+    - storage box
+  - - dirty shorts
+    - hamper
+  - - Amazon Fire tablet
+    - desk
+  - - clean leggings
+    - bed
+  - - clean sweater
+    - bed
+  - - earrings
+    - storage box
+  - - stained shirt
+    - hamper
+  - - Google Pixel phone
+    - desk
+  - - skateboard
+    - closet
+  - - tennis racket
+    - closet
+- annotator_notes: Put bags on the chair, tissue boxes on the shelf, textbooks on
+    the desk, stationery in the drawer, and food on the plate.
+  receptacles:
+  - chair
+  - shelf
+  - desk
+  - drawer
+  - plate
+  room: bedroom
+  seen_objects:
+  - ice cream
+  - granola bar
+  - Kleenex tissue box 2
+  - Sharpie
+  - English textbook
+  - gym bag
+  - biology textbook
+  - messenger bag
+  - Kleenex tissue box
+  - highlighter
+  seen_placements:
+  - - ice cream
+    - plate
+  - - granola bar
+    - plate
+  - - Kleenex tissue box 2
+    - shelf
+  - - Sharpie
+    - drawer
+  - - English textbook
+    - desk
+  - - gym bag
+    - chair
+  - - biology textbook
+    - desk
+  - - messenger bag
+    - chair
+  - - Kleenex tissue box
+    - shelf
+  - - highlighter
+    - drawer
+  tags:
+  - category
+  unseen_objects:
+  - geography textbook
+  - crossbody bag
+  - Pilot gel pen
+  - nursing textbook
+  - frozen dinner
+  - handbag
+  - instant noodles
+  - Puffs tissue box
+  - Puffs tissue box 2
+  - Bic ballpoint pen
+  unseen_placements:
+  - - geography textbook
+    - desk
+  - - crossbody bag
+    - chair
+  - - Pilot gel pen
+    - drawer
+  - - nursing textbook
+    - desk
+  - - frozen dinner
+    - plate
+  - - handbag
+    - chair
+  - - instant noodles
+    - plate
+  - - Puffs tissue box
+    - shelf
+  - - Puffs tissue box 2
+    - shelf
+  - - Bic ballpoint pen
+    - drawer
+- annotator_notes: Put dinnerware on the tray, action figures on the shelf, other
+    toys in the storage box, homework on the desk, and clothes in the laundry basket.
+  receptacles:
+  - tray
+  - shelf
+  - storage box
+  - desk
+  - laundry basket
+  room: bedroom
+  seen_objects:
+  - Darth Vader action figure
+  - board game
+  - dollhouse
+  - Minecraft action figure
+  - history essay
+  - cargo shorts
+  - serving bowl
+  - math homework
+  - dinner plate
+  - sweatpants
+  seen_placements:
+  - - Darth Vader action figure
+    - shelf
+  - - board game
+    - storage box
+  - - dollhouse
+    - storage box
+  - - Minecraft action figure
+    - shelf
+  - - history essay
+    - desk
+  - - cargo shorts
+    - laundry basket
+  - - serving bowl
+    - tray
+  - - math homework
+    - desk
+  - - dinner plate
+    - tray
+  - - sweatpants
+    - laundry basket
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - card game
+  - jigsaw puzzle
+  - research paper
+  - linen pants
+  - low-rise jeans
+  - Captain America action figure
+  - Fortnite action figure
+  - mug
+  - physics problem set
+  - plastic plate
+  unseen_placements:
+  - - card game
+    - storage box
+  - - jigsaw puzzle
+    - storage box
+  - - research paper
+    - desk
+  - - linen pants
+    - laundry basket
+  - - low-rise jeans
+    - laundry basket
+  - - Captain America action figure
+    - shelf
+  - - Fortnite action figure
+    - shelf
+  - - mug
+    - tray
+  - - physics problem set
+    - desk
+  - - plastic plate
+    - tray
+- annotator_notes: Put formal clothes in the storage chest, casual clothes in the
+    closet, bedding in the cabinet, electronics on the nightstand, and books on the
+    top shelf.
+  receptacles:
+  - storage chest
+  - closet
+  - cabinet
+  - nightstand
+  - top shelf
+  room: bedroom
+  seen_objects:
+  - JBL speakers
+  - black tie
+  - dress pants
+  - jeans
+  - fiction book
+  - mattress protector
+  - bed sheets
+  - travel book
+  - hoodie
+  - Lenovo laptop
+  seen_placements:
+  - - JBL speakers
+    - nightstand
+  - - black tie
+    - storage chest
+  - - dress pants
+    - storage chest
+  - - jeans
+    - closet
+  - - fiction book
+    - top shelf
+  - - mattress protector
+    - cabinet
+  - - bed sheets
+    - cabinet
+  - - travel book
+    - top shelf
+  - - hoodie
+    - closet
+  - - Lenovo laptop
+    - nightstand
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - bedspread
+  - duvet cover
+  - iPad
+  - graphic novel 2
+  - henley shirt
+  - graphic novel
+  - Sony headphones
+  - cocktail dress
+  - sweatpants
+  - dress shirt
+  unseen_placements:
+  - - bedspread
+    - cabinet
+  - - duvet cover
+    - cabinet
+  - - iPad
+    - nightstand
+  - - graphic novel 2
+    - top shelf
+  - - henley shirt
+    - closet
+  - - graphic novel
+    - top shelf
+  - - Sony headphones
+    - nightstand
+  - - cocktail dress
+    - storage chest
+  - - sweatpants
+    - closet
+  - - dress shirt
+    - storage chest
+- annotator_notes: Put medication in the top drawer, tools in the bottom drawer, toys
+    in the plastic box, sporting equipment in the closet, and bags on the rack.
+  receptacles:
+  - top drawer
+  - bottom drawer
+  - plastic box
+  - closet
+  - rack
+  room: bedroom
+  seen_objects:
+  - screwdriver
+  - tote bag
+  - Advil
+  - Claritin
+  - jump rope
+  - clutch bag
+  - toy ball
+  - soccer ball
+  - toy train
+  - tape measure
+  seen_placements:
+  - - screwdriver
+    - bottom drawer
+  - - tote bag
+    - rack
+  - - Advil
+    - top drawer
+  - - Claritin
+    - top drawer
+  - - jump rope
+    - closet
+  - - clutch bag
+    - rack
+  - - toy ball
+    - plastic box
+  - - soccer ball
+    - closet
+  - - toy train
+    - plastic box
+  - - tape measure
+    - bottom drawer
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - trading cards
+  - hammer
+  - Lego Duplo set
+  - shoulder bag
+  - protractor
+  - Tylenol
+  - football
+  - fanny pack
+  - baseball gloves
+  - dextromethorphan
+  unseen_placements:
+  - - trading cards
+    - plastic box
+  - - hammer
+    - bottom drawer
+  - - Lego Duplo set
+    - plastic box
+  - - shoulder bag
+    - rack
+  - - protractor
+    - bottom drawer
+  - - Tylenol
+    - top drawer
+  - - football
+    - closet
+  - - fanny pack
+    - rack
+  - - baseball gloves
+    - closet
+  - - dextromethorphan
+    - top drawer
+- annotator_notes: Put schoolwork in the backpack, textbooks on the shelf, clothing
+    in the closet, plants on the desk, and shoes on the rack.
+  receptacles:
+  - backpack
+  - shelf
+  - closet
+  - desk
+  - rack
+  room: bedroom
+  seen_objects:
+  - potted plant
+  - Aloe vera plant
+  - math homework
+  - ultralight jacket
+  - boat shoes
+  - snow boots
+  - lab notebook
+  - algorithms textbook
+  - sweatshirt
+  - political science textbook
+  seen_placements:
+  - - potted plant
+    - desk
+  - - Aloe vera plant
+    - desk
+  - - math homework
+    - backpack
+  - - ultralight jacket
+    - closet
+  - - boat shoes
+    - rack
+  - - snow boots
+    - rack
+  - - lab notebook
+    - backpack
+  - - algorithms textbook
+    - shelf
+  - - sweatshirt
+    - closet
+  - - political science textbook
+    - shelf
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - lucky bamboo
+  - anthropology textbook
+  - jeans
+  - t-shirt
+  - history textbook
+  - stilettos
+  - Philodendron plant
+  - English essay
+  - hiking boots
+  - chemistry homework
+  unseen_placements:
+  - - lucky bamboo
+    - desk
+  - - anthropology textbook
+    - shelf
+  - - jeans
+    - closet
+  - - t-shirt
+    - closet
+  - - history textbook
+    - shelf
+  - - stilettos
+    - rack
+  - - Philodendron plant
+    - desk
+  - - English essay
+    - backpack
+  - - hiking boots
+    - rack
+  - - chemistry homework
+    - backpack
+- annotator_notes: Put tableware in the top cabinet and utensils in the top drawer.
+  receptacles:
+  - top cabinet
+  - top drawer
+  room: kitchen
+  seen_objects:
+  - salad plate
+  - soup spoon
+  - wine glass
+  - dinner fork
+  seen_placements:
+  - - salad plate
+    - top cabinet
+  - - soup spoon
+    - top drawer
+  - - wine glass
+    - top cabinet
+  - - dinner fork
+    - top drawer
+  tags:
+  - category
+  unseen_objects:
+  - steak knife
+  - cereal bowl
+  - dessert knife
+  - dinner plate
+  unseen_placements:
+  - - steak knife
+    - top drawer
+  - - cereal bowl
+    - top cabinet
+  - - dessert knife
+    - top drawer
+  - - dinner plate
+    - top cabinet
+- annotator_notes: Put metal utensils in the sink and plastic utensils in the cabinet.
+  receptacles:
+  - sink
+  - cabinet
+  room: kitchen
+  seen_objects:
+  - stainless steel fork
+  - stainless steel knife
+  - plastic fork 2
+  - plastic fork
+  seen_placements:
+  - - stainless steel fork
+    - sink
+  - - stainless steel knife
+    - sink
+  - - plastic fork 2
+    - cabinet
+  - - plastic fork
+    - cabinet
+  tags:
+  - attribute
+  unseen_objects:
+  - plastic knife
+  - stainless steel spoon
+  - grater
+  - plastic spoon
+  unseen_placements:
+  - - plastic knife
+    - cabinet
+  - - stainless steel spoon
+    - sink
+  - - grater
+    - sink
+  - - plastic spoon
+    - cabinet
+- annotator_notes: Put fruits on the counter and other ingredients in the fridge.
+  receptacles:
+  - counter
+  - fridge
+  room: kitchen
+  seen_objects:
+  - watermelon
+  - salt
+  - mango
+  - eggs
+  seen_placements:
+  - - watermelon
+    - counter
+  - - salt
+    - fridge
+  - - mango
+    - counter
+  - - eggs
+    - fridge
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - cheese
+  - peach
+  - blueberries
+  - yeast
+  unseen_placements:
+  - - cheese
+    - fridge
+  - - peach
+    - counter
+  - - blueberries
+    - counter
+  - - yeast
+    - fridge
+- annotator_notes: Put snacks in the bowl and cutlery in the drawer.
+  receptacles:
+  - bowl
+  - drawer
+  room: kitchen
+  seen_objects:
+  - pudding cup
+  - cookies
+  - salad fork
+  - dessert spoon
+  seen_placements:
+  - - pudding cup
+    - bowl
+  - - cookies
+    - bowl
+  - - salad fork
+    - drawer
+  - - dessert spoon
+    - drawer
+  tags:
+  - category
+  unseen_objects:
+  - spoon
+  - pastry fork
+  - corn chips
+  - beef jerky
+  unseen_placements:
+  - - spoon
+    - drawer
+  - - pastry fork
+    - drawer
+  - - corn chips
+    - bowl
+  - - beef jerky
+    - bowl
+- annotator_notes: Put small cookware in the left cabinet and large cookware in the
+    right cabinet.
+  receptacles:
+  - left cabinet
+  - right cabinet
+  room: kitchen
+  seen_objects:
+  - ramekin
+  - roasting pan
+  - slow cooker
+  - egg poacher
+  seen_placements:
+  - - ramekin
+    - left cabinet
+  - - roasting pan
+    - right cabinet
+  - - slow cooker
+    - right cabinet
+  - - egg poacher
+    - left cabinet
+  tags:
+  - attribute
+  unseen_objects:
+  - mini loaf pan
+  - Dutch oven
+  - saucepan
+  - crock pot
+  unseen_placements:
+  - - mini loaf pan
+    - left cabinet
+  - - Dutch oven
+    - right cabinet
+  - - saucepan
+    - left cabinet
+  - - crock pot
+    - right cabinet
+- annotator_notes: Put porcelain items in the left cupboard and metal items in the
+    right cupboard.
+  receptacles:
+  - left cupboard
+  - right cupboard
+  room: kitchen
+  seen_objects:
+  - ceramic plate
+  - cast iron pan
+  - porcelain bowl
+  - copper pot
+  seen_placements:
+  - - ceramic plate
+    - left cupboard
+  - - cast iron pan
+    - right cupboard
+  - - porcelain bowl
+    - left cupboard
+  - - copper pot
+    - right cupboard
+  tags:
+  - attribute
+  unseen_objects:
+  - stainless steel whisk
+  - metal tongs
+  - porcelain mug
+  - clay pot
+  unseen_placements:
+  - - stainless steel whisk
+    - right cupboard
+  - - metal tongs
+    - right cupboard
+  - - porcelain mug
+    - left cupboard
+  - - clay pot
+    - left cupboard
+- annotator_notes: Put pots and pans in cabinet 1, mugs and plates in cabinet 2, and
+    silverware in the drawer.
+  receptacles:
+  - cabinet 1
+  - cabinet 2
+  - drawer
+  room: kitchen
+  seen_objects:
+  - spoon
+  - copper pan
+  - stock pot
+  - butter knife
+  - plate
+  - mug
+  seen_placements:
+  - - spoon
+    - drawer
+  - - copper pan
+    - cabinet 1
+  - - stock pot
+    - cabinet 1
+  - - butter knife
+    - drawer
+  - - plate
+    - cabinet 2
+  - - mug
+    - cabinet 2
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - fork
+  - stainless steel pan
+  - dessert plate
+  - Stanford mug
+  - stainless steel spoon
+  - aluminum pot
+  unseen_placements:
+  - - fork
+    - drawer
+  - - stainless steel pan
+    - cabinet 1
+  - - dessert plate
+    - cabinet 2
+  - - Stanford mug
+    - cabinet 2
+  - - stainless steel spoon
+    - drawer
+  - - aluminum pot
+    - cabinet 1
+- annotator_notes: Put cutlery in bin 1, disposable dinnerware in the trash can, and
+    food in bin 2.
+  receptacles:
+  - bin 1
+  - trash can
+  - bin 2
+  room: kitchen
+  seen_objects:
+  - salad spoon
+  - compostable fork
+  - tomato
+  - paper plate
+  - boxed pasta
+  - steak knife
+  seen_placements:
+  - - salad spoon
+    - bin 1
+  - - compostable fork
+    - trash can
+  - - tomato
+    - bin 2
+  - - paper plate
+    - trash can
+  - - boxed pasta
+    - bin 2
+  - - steak knife
+    - bin 1
+  tags:
+  - category
+  unseen_objects:
+  - butter knife
+  - fork
+  - yogurt
+  - ice cream
+  - disposable spoon
+  - plastic cup
+  unseen_placements:
+  - - butter knife
+    - bin 1
+  - - fork
+    - bin 1
+  - - yogurt
+    - bin 2
+  - - ice cream
+    - bin 2
+  - - disposable spoon
+    - trash can
+  - - plastic cup
+    - trash can
+- annotator_notes: Put decorative items on the counter, kitchen accessories on the
+    table, and food in the fridge.
+  receptacles:
+  - counter
+  - table
+  - fridge
+  room: kitchen
+  seen_objects:
+  - vase
+  - lasagna
+  - decorative bowl
+  - cutting board
+  - meat thermometer
+  - taco
+  seen_placements:
+  - - vase
+    - counter
+  - - lasagna
+    - fridge
+  - - decorative bowl
+    - counter
+  - - cutting board
+    - table
+  - - meat thermometer
+    - table
+  - - taco
+    - fridge
+  tags:
+  - category
+  unseen_objects:
+  - lemonade
+  - candle
+  - sculpture
+  - salad
+  - wine opener
+  - can opener
+  unseen_placements:
+  - - lemonade
+    - fridge
+  - - candle
+    - counter
+  - - sculpture
+    - counter
+  - - salad
+    - fridge
+  - - wine opener
+    - table
+  - - can opener
+    - table
+- annotator_notes: Put cookware on the counter, ingredients in the sink, and dinnerware
+    in the cabinet.
+  receptacles:
+  - counter
+  - sink
+  - cabinet
+  room: kitchen
+  seen_objects:
+  - stock pot
+  - saucepan
+  - dessert plate
+  - tomatoes
+  - lettuce
+  - wine glass
+  seen_placements:
+  - - stock pot
+    - counter
+  - - saucepan
+    - counter
+  - - dessert plate
+    - cabinet
+  - - tomatoes
+    - sink
+  - - lettuce
+    - sink
+  - - wine glass
+    - cabinet
+  tags:
+  - category
+  unseen_objects:
+  - carrots
+  - earthenware plate
+  - skillet
+  - onions
+  - soup bowl
+  - cast iron pan
+  unseen_placements:
+  - - carrots
+    - sink
+  - - earthenware plate
+    - cabinet
+  - - skillet
+    - counter
+  - - onions
+    - sink
+  - - soup bowl
+    - cabinet
+  - - cast iron pan
+    - counter
+- annotator_notes: Put baking ingredients on the shelf, baking appliances in the cabinet,
+    and other ingredients on the counter.
+  receptacles:
+  - shelf
+  - cabinet
+  - counter
+  room: kitchen
+  seen_objects:
+  - baking powder
+  - stand mixer
+  - butter
+  - kitchen scale
+  - pork belly
+  - quinoa
+  seen_placements:
+  - - baking powder
+    - shelf
+  - - stand mixer
+    - cabinet
+  - - butter
+    - shelf
+  - - kitchen scale
+    - cabinet
+  - - pork belly
+    - counter
+  - - quinoa
+    - counter
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - kale
+  - bread maker
+  - hand mixer
+  - chicken thigh
+  - baking soda
+  - flour
+  unseen_placements:
+  - - kale
+    - counter
+  - - bread maker
+    - cabinet
+  - - hand mixer
+    - cabinet
+  - - chicken thigh
+    - counter
+  - - baking soda
+    - shelf
+  - - flour
+    - shelf
+- annotator_notes: Put silverware in the top drawer, kitchen tools in the middle drawer,
+    and cutting boards in the bottom drawer.
+  receptacles:
+  - top drawer
+  - middle drawer
+  - bottom drawer
+  room: kitchen
+  seen_objects:
+  - fork
+  - fruit cutting board
+  - wooden cutting board
+  - whisk
+  - spatula
+  - knife
+  seen_placements:
+  - - fork
+    - top drawer
+  - - fruit cutting board
+    - bottom drawer
+  - - wooden cutting board
+    - bottom drawer
+  - - whisk
+    - middle drawer
+  - - spatula
+    - middle drawer
+  - - knife
+    - top drawer
+  tags:
+  - category
+  unseen_objects:
+  - ladle
+  - salad fork
+  - bamboo cutting board
+  - glass cutting board
+  - turner
+  - spoon
+  unseen_placements:
+  - - ladle
+    - middle drawer
+  - - salad fork
+    - top drawer
+  - - bamboo cutting board
+    - bottom drawer
+  - - glass cutting board
+    - bottom drawer
+  - - turner
+    - middle drawer
+  - - spoon
+    - top drawer
+- annotator_notes: Put flour on the left shelf, sauces on the right shelf, kitchen
+    tools in the drawer, and other food on the counter.
+  receptacles:
+  - left shelf
+  - right shelf
+  - drawer
+  - counter
+  room: kitchen
+  seen_objects:
+  - fish sauce
+  - bread flour
+  - muffin
+  - cake flour
+  - BBQ sauce
+  - tongs
+  - peach
+  - slotted spoon
+  seen_placements:
+  - - fish sauce
+    - right shelf
+  - - bread flour
+    - left shelf
+  - - muffin
+    - counter
+  - - cake flour
+    - left shelf
+  - - BBQ sauce
+    - right shelf
+  - - tongs
+    - drawer
+  - - peach
+    - counter
+  - - slotted spoon
+    - drawer
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - rolling pin
+  - bread
+  - oyster sauce
+  - ketchup
+  - almond flour
+  - cookie
+  - semolina flour
+  - measuring cups
+  unseen_placements:
+  - - rolling pin
+    - drawer
+  - - bread
+    - counter
+  - - oyster sauce
+    - right shelf
+  - - ketchup
+    - right shelf
+  - - almond flour
+    - left shelf
+  - - cookie
+    - counter
+  - - semolina flour
+    - left shelf
+  - - measuring cups
+    - drawer
+- annotator_notes: Put fruits in the big bowl, pretzels on the counter, other snacks
+    in the storage box, and drinks in the fridge.
+  receptacles:
+  - big bowl
+  - counter
+  - storage box
+  - fridge
+  room: kitchen
+  seen_objects:
+  - tangerine
+  - Oreo cookies
+  - water
+  - orange juice
+  - gluten-free pretzels
+  - pear
+  - peanut butter pretzels
+  - Ruffles sour cream potato chips
+  seen_placements:
+  - - tangerine
+    - big bowl
+  - - Oreo cookies
+    - storage box
+  - - water
+    - fridge
+  - - orange juice
+    - fridge
+  - - gluten-free pretzels
+    - counter
+  - - pear
+    - big bowl
+  - - peanut butter pretzels
+    - counter
+  - - Ruffles sour cream potato chips
+    - storage box
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - coke
+  - grapes
+  - mango
+  - Chips Ahoy cookies
+  - chocolate-covered pretzels
+  - seltzer water
+  - Dijon mustard pretzels
+  - Biscotti biscuits
+  unseen_placements:
+  - - coke
+    - fridge
+  - - grapes
+    - big bowl
+  - - mango
+    - big bowl
+  - - Chips Ahoy cookies
+    - storage box
+  - - chocolate-covered pretzels
+    - counter
+  - - seltzer water
+    - fridge
+  - - Dijon mustard pretzels
+    - counter
+  - - Biscotti biscuits
+    - storage box
+- annotator_notes: Put paper products on the top shelf, dinnerware on the bottom shelf,
+    appliances in the cabinet, and ingredients on the counter.
+  receptacles:
+  - top shelf
+  - bottom shelf
+  - cabinet
+  - counter
+  room: kitchen
+  seen_objects:
+  - Vitamix blender
+  - carrots
+  - food processor
+  - mug
+  - sour cream
+  - paper plate
+  - plate
+  - napkin
+  seen_placements:
+  - - Vitamix blender
+    - cabinet
+  - - carrots
+    - counter
+  - - food processor
+    - cabinet
+  - - mug
+    - bottom shelf
+  - - sour cream
+    - counter
+  - - paper plate
+    - top shelf
+  - - plate
+    - bottom shelf
+  - - napkin
+    - top shelf
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - soup bowl
+  - onion
+  - immersion blender
+  - brown paper plate
+  - coffee maker
+  - broccoli
+  - porcelain bowl
+  - table napkin
+  unseen_placements:
+  - - soup bowl
+    - bottom shelf
+  - - onion
+    - counter
+  - - immersion blender
+    - cabinet
+  - - brown paper plate
+    - top shelf
+  - - coffee maker
+    - cabinet
+  - - broccoli
+    - counter
+  - - porcelain bowl
+    - bottom shelf
+  - - table napkin
+    - top shelf
+- annotator_notes: Put utensils in the basket, ingredients on the rack, cookware in
+    the top cabinet, and cleaning supplies in the bottom cabinet.
+  receptacles:
+  - basket
+  - rack
+  - top cabinet
+  - bottom cabinet
+  room: kitchen
+  seen_objects:
+  - Instant Pot
+  - bleach
+  - sugar
+  - soup spoon
+  - Clorox wipes
+  - Dutch oven
+  - gravy powder
+  - dinner fork
+  seen_placements:
+  - - Instant Pot
+    - top cabinet
+  - - bleach
+    - bottom cabinet
+  - - sugar
+    - rack
+  - - soup spoon
+    - basket
+  - - Clorox wipes
+    - bottom cabinet
+  - - Dutch oven
+    - top cabinet
+  - - gravy powder
+    - rack
+  - - dinner fork
+    - basket
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - steak seasoning
+  - spoon
+  - Windex
+  - egg poacher
+  - yeast
+  - Swiffer wet pad
+  - rice cooker
+  - steak knife
+  unseen_placements:
+  - - steak seasoning
+    - rack
+  - - spoon
+    - basket
+  - - Windex
+    - bottom cabinet
+  - - egg poacher
+    - top cabinet
+  - - yeast
+    - rack
+  - - Swiffer wet pad
+    - bottom cabinet
+  - - rice cooker
+    - top cabinet
+  - - steak knife
+    - basket
+- annotator_notes: Put baking supplies in the oven drawer, baking ingredients in the
+    left cabinet, measuring tools in the drawer, and appliances in the right cabinet.
+  receptacles:
+  - oven drawer
+  - left cabinet
+  - drawer
+  - right cabinet
+  room: kitchen
+  seen_objects:
+  - cream of tartar
+  - portable gas stove
+  - cupcake pan
+  - liquid measuring cup
+  - waffle maker
+  - sugar
+  - measuring spoon
+  - Bundt pan
+  seen_placements:
+  - - cream of tartar
+    - left cabinet
+  - - portable gas stove
+    - right cabinet
+  - - cupcake pan
+    - oven drawer
+  - - liquid measuring cup
+    - drawer
+  - - waffle maker
+    - right cabinet
+  - - sugar
+    - left cabinet
+  - - measuring spoon
+    - drawer
+  - - Bundt pan
+    - oven drawer
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - food processor
+  - Magic Bullet blender
+  - powdered sugar
+  - OXO jigger
+  - doughnut pan
+  - evaporated milk
+  - angled measuring cup
+  - tart tin
+  unseen_placements:
+  - - food processor
+    - right cabinet
+  - - Magic Bullet blender
+    - right cabinet
+  - - powdered sugar
+    - left cabinet
+  - - OXO jigger
+    - drawer
+  - - doughnut pan
+    - oven drawer
+  - - evaporated milk
+    - left cabinet
+  - - angled measuring cup
+    - drawer
+  - - tart tin
+    - oven drawer
+- annotator_notes: Put tableware in the cabinet, cutting boards and knives in the
+    top drawer, cookbooks and recipes on the shelf, and aprons on the stool.
+  receptacles:
+  - cabinet
+  - top drawer
+  - shelf
+  - stool
+  room: kitchen
+  seen_objects:
+  - reversible cutting board
+  - Instant Pot cookbook
+  - half apron
+  - waist apron
+  - chopsticks
+  - cheese knife
+  - serving bowl
+  - cake recipe
+  seen_placements:
+  - - reversible cutting board
+    - top drawer
+  - - Instant Pot cookbook
+    - shelf
+  - - half apron
+    - stool
+  - - waist apron
+    - stool
+  - - chopsticks
+    - cabinet
+  - - cheese knife
+    - top drawer
+  - - serving bowl
+    - cabinet
+  - - cake recipe
+    - shelf
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - baking cookbook
+  - granite cutting board
+  - denim apron
+  - soup recipe
+  - butcher knife
+  - cup
+  - grill apron
+  - plate
+  unseen_placements:
+  - - baking cookbook
+    - shelf
+  - - granite cutting board
+    - top drawer
+  - - denim apron
+    - stool
+  - - soup recipe
+    - shelf
+  - - butcher knife
+    - top drawer
+  - - cup
+    - cabinet
+  - - grill apron
+    - stool
+  - - plate
+    - cabinet
+- annotator_notes: Put cutting boards and knives in the top drawer, vegetables on
+    the counter, pots on the hanging rack, cutlery in the bucket, and other snacks
+    in the storage box.
+  receptacles:
+  - top drawer
+  - counter
+  - hanging rack
+  - bucket
+  - storage box
+  room: kitchen
+  seen_objects:
+  - shallot
+  - potato
+  - stock pot
+  - stainless steel pot
+  - Wheat Thins crackers
+  - bamboo cutting board
+  - soup spoon
+  - rice crackers
+  - paring knife
+  - fork
+  seen_placements:
+  - - shallot
+    - counter
+  - - potato
+    - counter
+  - - stock pot
+    - hanging rack
+  - - stainless steel pot
+    - hanging rack
+  - - Wheat Thins crackers
+    - storage box
+  - - bamboo cutting board
+    - top drawer
+  - - soup spoon
+    - bucket
+  - - rice crackers
+    - storage box
+  - - paring knife
+    - top drawer
+  - - fork
+    - bucket
+  tags:
+  - category
+  - multiple categories
+  - subcategory
+  unseen_objects:
+  - lobster cracker tool
+  - serrated knife
+  - aluminum pot
+  - oatmeal cookie
+  - celery
+  - shellfish fork
+  - copper pot
+  - garlic
+  - chocolate chip cookie
+  - wood cutting board
+  unseen_placements:
+  - - lobster cracker tool
+    - bucket
+  - - serrated knife
+    - top drawer
+  - - aluminum pot
+    - hanging rack
+  - - oatmeal cookie
+    - storage box
+  - - celery
+    - counter
+  - - shellfish fork
+    - bucket
+  - - copper pot
+    - hanging rack
+  - - garlic
+    - counter
+  - - chocolate chip cookie
+    - storage box
+  - - wood cutting board
+    - top drawer
+- annotator_notes: Put vegetables on the cutting board, other ingredients in the bowl,
+    kitchen appliances on the counter, cutlery in the left drawer, and kitchen tools
+    in the right drawer.
+  receptacles:
+  - cutting board
+  - bowl
+  - counter
+  - left drawer
+  - right drawer
+  room: kitchen
+  seen_objects:
+  - egg
+  - toaster oven
+  - napa cabbage
+  - whisk
+  - butter knife
+  - measuring cup
+  - fork
+  - meat
+  - potato
+  - blender
+  seen_placements:
+  - - egg
+    - bowl
+  - - toaster oven
+    - counter
+  - - napa cabbage
+    - cutting board
+  - - whisk
+    - right drawer
+  - - butter knife
+    - left drawer
+  - - measuring cup
+    - right drawer
+  - - fork
+    - left drawer
+  - - meat
+    - bowl
+  - - potato
+    - cutting board
+  - - blender
+    - counter
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - slow cooker
+  - steak knife
+  - soup spoon
+  - milk
+  - can opener
+  - mixer
+  - cilantro
+  - cheese
+  - air fryer
+  - bok choy
+  unseen_placements:
+  - - slow cooker
+    - counter
+  - - steak knife
+    - left drawer
+  - - soup spoon
+    - left drawer
+  - - milk
+    - bowl
+  - - can opener
+    - right drawer
+  - - mixer
+    - right drawer
+  - - cilantro
+    - cutting board
+  - - cheese
+    - bowl
+  - - air fryer
+    - counter
+  - - bok choy
+    - cutting board
+- annotator_notes: Put dinnerware on the drying rack, baking pans on the counter,
+    mixing bowls in the cabinet, kitchen tools in the drawer, and food in the fridge.
+  receptacles:
+  - drying rack
+  - counter
+  - cabinet
+  - drawer
+  - fridge
+  room: kitchen
+  seen_objects:
+  - can opener
+  - plate
+  - milk
+  - baking pan
+  - glass mixing bowl
+  - soup bowl
+  - plastic mixing bowl
+  - peeler
+  - baking pan 2
+  - tofu
+  seen_placements:
+  - - can opener
+    - drawer
+  - - plate
+    - drying rack
+  - - milk
+    - fridge
+  - - baking pan
+    - counter
+  - - glass mixing bowl
+    - cabinet
+  - - soup bowl
+    - drying rack
+  - - plastic mixing bowl
+    - cabinet
+  - - peeler
+    - drawer
+  - - baking pan 2
+    - counter
+  - - tofu
+    - fridge
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - small mixing bowl
+  - salad bowl
+  - string cheese
+  - metal mixing bowl
+  - meat tenderizer
+  - Bundt pan
+  - kefir
+  - cake pan
+  - wine glass
+  - meat shredder
+  unseen_placements:
+  - - small mixing bowl
+    - cabinet
+  - - salad bowl
+    - drying rack
+  - - string cheese
+    - fridge
+  - - metal mixing bowl
+    - cabinet
+  - - meat tenderizer
+    - drawer
+  - - Bundt pan
+    - counter
+  - - kefir
+    - fridge
+  - - cake pan
+    - counter
+  - - wine glass
+    - drying rack
+  - - meat shredder
+    - drawer
+- annotator_notes: Put snacks on the dining table, drinks on the counter, sauces in
+    the storage rack, kitchen tools in the drawer, disposable plates in the trash
+    can.
+  receptacles:
+  - dining table
+  - counter
+  - storage rack
+  - drawer
+  - trash can
+  room: kitchen
+  seen_objects:
+  - iced tea
+  - cider
+  - Cheetos
+  - mustard
+  - Dixie disposable plate
+  - vegetable peeler
+  - paper plate
+  - mayonnaise
+  - can opener
+  - gummy bears
+  seen_placements:
+  - - iced tea
+    - counter
+  - - cider
+    - counter
+  - - Cheetos
+    - dining table
+  - - mustard
+    - storage rack
+  - - Dixie disposable plate
+    - trash can
+  - - vegetable peeler
+    - drawer
+  - - paper plate
+    - trash can
+  - - mayonnaise
+    - storage rack
+  - - can opener
+    - drawer
+  - - gummy bears
+    - dining table
+  tags:
+  - category
+  unseen_objects:
+  - BBQ sauce
+  - soda
+  - disposable plastic plate
+  - Gatorade
+  - tortilla chips
+  - ketchup
+  - styrofoam plate
+  - pretzels
+  - potato masher
+  - zester
+  unseen_placements:
+  - - BBQ sauce
+    - storage rack
+  - - soda
+    - counter
+  - - disposable plastic plate
+    - trash can
+  - - Gatorade
+    - counter
+  - - tortilla chips
+    - dining table
+  - - ketchup
+    - storage rack
+  - - styrofoam plate
+    - trash can
+  - - pretzels
+    - dining table
+  - - potato masher
+    - drawer
+  - - zester
+    - drawer
+- annotator_notes: Put paper products in the recycling bin, kitchen accessories in
+    the top drawer, crockery in the cabinet, ingredients in the bottom shelf, and
+    recipes in the top shelf.
+  receptacles:
+  - recycling bin
+  - top drawer
+  - cabinet
+  - bottom shelf
+  - top shelf
+  room: kitchen
+  seen_objects:
+  - dinner plate
+  - whisk
+  - crumpled paper
+  - canned scallops
+  - tongs
+  - newspaper
+  - peanut butter
+  - Italian recipe
+  - breakfast recipe
+  - mug
+  seen_placements:
+  - - dinner plate
+    - cabinet
+  - - whisk
+    - top drawer
+  - - crumpled paper
+    - recycling bin
+  - - canned scallops
+    - bottom shelf
+  - - tongs
+    - top drawer
+  - - newspaper
+    - recycling bin
+  - - peanut butter
+    - bottom shelf
+  - - Italian recipe
+    - top shelf
+  - - breakfast recipe
+    - top shelf
+  - - mug
+    - cabinet
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - canned beans
+  - dinner recipe
+  - lemon juice
+  - brownie recipe
+  - pastry brush
+  - office paper
+  - meat thermometer
+  - ramekin
+  - salad plate
+  - wrapping paper
+  unseen_placements:
+  - - canned beans
+    - bottom shelf
+  - - dinner recipe
+    - top shelf
+  - - lemon juice
+    - bottom shelf
+  - - brownie recipe
+    - top shelf
+  - - pastry brush
+    - top drawer
+  - - office paper
+    - recycling bin
+  - - meat thermometer
+    - top drawer
+  - - ramekin
+    - cabinet
+  - - salad plate
+    - cabinet
+  - - wrapping paper
+    - recycling bin
+- annotator_notes: Put food in the left cabinet, kitchen appliances in the right cabinet,
+    cutting boards in the top drawer, knives on the counter, and dinnerware on the
+    shelf.
+  receptacles:
+  - left cabinet
+  - right cabinet
+  - top drawer
+  - counter
+  - shelf
+  room: kitchen
+  seen_objects:
+  - Santoku knife
+  - chef's knife
+  - spice grinder
+  - beans
+  - dip bowl
+  - pasta
+  - porcelain plate
+  - electric kettle
+  - red cutting board
+  - green cutting board
+  seen_placements:
+  - - Santoku knife
+    - counter
+  - - chef's knife
+    - counter
+  - - spice grinder
+    - right cabinet
+  - - beans
+    - left cabinet
+  - - dip bowl
+    - shelf
+  - - pasta
+    - left cabinet
+  - - porcelain plate
+    - shelf
+  - - electric kettle
+    - right cabinet
+  - - red cutting board
+    - top drawer
+  - - green cutting board
+    - top drawer
+  tags:
+  - category
+  unseen_objects:
+  - carving knife
+  - lentils
+  - French press
+  - salad bowl
+  - rice
+  - glass bowl
+  - bread knife
+  - plastic cutting board
+  - Ninja blender
+  - large cutting board
+  unseen_placements:
+  - - carving knife
+    - counter
+  - - lentils
+    - left cabinet
+  - - French press
+    - right cabinet
+  - - salad bowl
+    - shelf
+  - - rice
+    - left cabinet
+  - - glass bowl
+    - shelf
+  - - bread knife
+    - counter
+  - - plastic cutting board
+    - top drawer
+  - - Ninja blender
+    - right cabinet
+  - - large cutting board
+    - top drawer
+- annotator_notes: Put breakfast foods on the top shelf and other foods on the bottom
+    shelf.
+  receptacles:
+  - top shelf
+  - bottom shelf
+  room: pantry room
+  seen_objects:
+  - canned soup
+  - muffin
+  - oatmeal
+  - lemon juice
+  seen_placements:
+  - - canned soup
+    - bottom shelf
+  - - muffin
+    - top shelf
+  - - oatmeal
+    - top shelf
+  - - lemon juice
+    - bottom shelf
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - cereal
+  - taco seasoning
+  - canned tuna
+  - croissant
+  unseen_placements:
+  - - cereal
+    - top shelf
+  - - taco seasoning
+    - bottom shelf
+  - - canned tuna
+    - bottom shelf
+  - - croissant
+    - top shelf
+- annotator_notes: Put heavy items on the floor and other food on the shelf.
+  receptacles:
+  - floor
+  - shelf
+  room: pantry room
+  seen_objects:
+  - case of canned tuna
+  - large bag of flour
+  - honey
+  - crackers
+  seen_placements:
+  - - case of canned tuna
+    - floor
+  - - large bag of flour
+    - floor
+  - - honey
+    - shelf
+  - - crackers
+    - shelf
+  tags:
+  - category
+  - subcategory
+  - attribute
+  unseen_objects:
+  - instant coffee
+  - herbal tea
+  - bag of charcoal
+  - case of bottled water
+  unseen_placements:
+  - - instant coffee
+    - shelf
+  - - herbal tea
+    - shelf
+  - - bag of charcoal
+    - floor
+  - - case of bottled water
+    - floor
+- annotator_notes: Put snacks on the left shelf and canned goods on the right shelf.
+  receptacles:
+  - left shelf
+  - right shelf
+  room: pantry room
+  seen_objects:
+  - tortilla chips
+  - canned pears
+  - turkey jerky
+  - canned tomato paste
+  seen_placements:
+  - - tortilla chips
+    - left shelf
+  - - canned pears
+    - right shelf
+  - - turkey jerky
+    - left shelf
+  - - canned tomato paste
+    - right shelf
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - fruit cup
+  - pretzels
+  - canned coconut milk
+  - canned pumpkin puree
+  unseen_placements:
+  - - fruit cup
+    - left shelf
+  - - pretzels
+    - left shelf
+  - - canned coconut milk
+    - right shelf
+  - - canned pumpkin puree
+    - right shelf
+- annotator_notes: Put packaged food on the shelf and sweets on the rack.
+  receptacles:
+  - shelf
+  - rack
+  room: pantry room
+  seen_objects:
+  - Snickers bar
+  - instant ramen
+  - gummy worms
+  - boxed cereal
+  seen_placements:
+  - - Snickers bar
+    - rack
+  - - instant ramen
+    - shelf
+  - - gummy worms
+    - rack
+  - - boxed cereal
+    - shelf
+  tags:
+  - category
+  - subcategory
+  - attribute
+  unseen_objects:
+  - candy bar
+  - Werther's Original caramel candy
+  - protein bar
+  - instant mac and cheese
+  unseen_placements:
+  - - candy bar
+    - rack
+  - - Werther's Original caramel candy
+    - rack
+  - - protein bar
+    - shelf
+  - - instant mac and cheese
+    - shelf
+- annotator_notes: Put baking ingredients on the top shelf and other ingredients on
+    the bottom shelf.
+  receptacles:
+  - top shelf
+  - bottom shelf
+  room: pantry room
+  seen_objects:
+  - canned salmon
+  - all-purpose flour
+  - hot sauce
+  - sugar
+  seen_placements:
+  - - canned salmon
+    - bottom shelf
+  - - all-purpose flour
+    - top shelf
+  - - hot sauce
+    - bottom shelf
+  - - sugar
+    - top shelf
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - vinegar
+  - baking powder
+  - lemon extract
+  - salad dressing
+  unseen_placements:
+  - - vinegar
+    - bottom shelf
+  - - baking powder
+    - top shelf
+  - - lemon extract
+    - top shelf
+  - - salad dressing
+    - bottom shelf
+- annotator_notes: Put grains on the floor and other food on the shelf.
+  receptacles:
+  - floor
+  - shelf
+  room: pantry room
+  seen_objects:
+  - brown rice
+  - dried mangos
+  - Fruit Roll-Ups
+  - linguine
+  seen_placements:
+  - - brown rice
+    - floor
+  - - dried mangos
+    - shelf
+  - - Fruit Roll-Ups
+    - shelf
+  - - linguine
+    - floor
+  tags:
+  - category
+  - subcategory
+  unseen_objects:
+  - fruit leathers
+  - macaroni pasta
+  - basmati rice
+  - peanuts
+  unseen_placements:
+  - - fruit leathers
+    - shelf
+  - - macaroni pasta
+    - floor
+  - - basmati rice
+    - floor
+  - - peanuts
+    - shelf
+- annotator_notes: Put spices on the top shelf, snacks on the middle shelf, and grains
+    on the bottom shelf.
+  receptacles:
+  - top shelf
+  - middle shelf
+  - bottom shelf
+  room: pantry room
+  seen_objects:
+  - brown rice
+  - fruit gummy
+  - paprika
+  - chips
+  - cumin
+  - steel cut oats
+  seen_placements:
+  - - brown rice
+    - bottom shelf
+  - - fruit gummy
+    - middle shelf
+  - - paprika
+    - top shelf
+  - - chips
+    - middle shelf
+  - - cumin
+    - top shelf
+  - - steel cut oats
+    - bottom shelf
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - garlic powder
+  - rolled oats
+  - onion powder
+  - quinoa
+  - nuts
+  - crackers
+  unseen_placements:
+  - - garlic powder
+    - top shelf
+  - - rolled oats
+    - bottom shelf
+  - - onion powder
+    - top shelf
+  - - quinoa
+    - bottom shelf
+  - - nuts
+    - middle shelf
+  - - crackers
+    - middle shelf
+- annotator_notes: Put beverages on the bottom shelf, dry ingredients on the middle
+    shelf, and snacks on the top shelf.
+  receptacles:
+  - bottom shelf
+  - middle shelf
+  - top shelf
+  room: pantry room
+  seen_objects:
+  - dried mangos
+  - cornstarch
+  - Cheez-It crackers
+  - flour
+  - sparkling water
+  - Sprite
+  seen_placements:
+  - - dried mangos
+    - top shelf
+  - - cornstarch
+    - middle shelf
+  - - Cheez-It crackers
+    - top shelf
+  - - flour
+    - middle shelf
+  - - sparkling water
+    - bottom shelf
+  - - Sprite
+    - bottom shelf
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - pasta
+  - lemonade
+  - cocoa powder
+  - trail mix
+  - Snack Pack pudding cups
+  - Powerade
+  unseen_placements:
+  - - pasta
+    - middle shelf
+  - - lemonade
+    - bottom shelf
+  - - cocoa powder
+    - middle shelf
+  - - trail mix
+    - top shelf
+  - - Snack Pack pudding cups
+    - top shelf
+  - - Powerade
+    - bottom shelf
+- annotator_notes: Put potatoes in the cardboard box, breakfast foods on the top rack,
+    and condiments on the shelf.
+  receptacles:
+  - cardboard box
+  - top rack
+  - shelf
+  room: pantry room
+  seen_objects:
+  - granola
+  - Yukon Gold potato
+  - Dijon mustard
+  - sweet potato
+  - bagels
+  - ketchup
+  seen_placements:
+  - - granola
+    - top rack
+  - - Yukon Gold potato
+    - cardboard box
+  - - Dijon mustard
+    - shelf
+  - - sweet potato
+    - cardboard box
+  - - bagels
+    - top rack
+  - - ketchup
+    - shelf
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - red potato
+  - Cheerios
+  - Russet potato
+  - oatmeal
+  - hot sauce
+  - relish
+  unseen_placements:
+  - - red potato
+    - cardboard box
+  - - Cheerios
+    - top rack
+  - - Russet potato
+    - cardboard box
+  - - oatmeal
+    - top rack
+  - - hot sauce
+    - shelf
+  - - relish
+    - shelf
+- annotator_notes: Put powders on the top shelf, liquids on the middle shelf, and
+    solids on the bottom shelf.
+  receptacles:
+  - top shelf
+  - middle shelf
+  - bottom shelf
+  room: pantry room
+  seen_objects:
+  - ground cinnamon
+  - potato starch
+  - soy sauce
+  - canned chicken
+  - chicken stock
+  - pasta
+  seen_placements:
+  - - ground cinnamon
+    - top shelf
+  - - potato starch
+    - top shelf
+  - - soy sauce
+    - middle shelf
+  - - canned chicken
+    - bottom shelf
+  - - chicken stock
+    - middle shelf
+  - - pasta
+    - bottom shelf
+  tags:
+  - attribute
+  unseen_objects:
+  - olive oil
+  - pumpkin seeds
+  - cornstarch
+  - vinegar
+  - oats
+  - powdered sugar
+  unseen_placements:
+  - - olive oil
+    - middle shelf
+  - - pumpkin seeds
+    - bottom shelf
+  - - cornstarch
+    - top shelf
+  - - vinegar
+    - middle shelf
+  - - oats
+    - bottom shelf
+  - - powdered sugar
+    - top shelf
+- annotator_notes: Put aromatics in the bowl, sauces in the top shelf, and grains
+    in the bottom shelf.
+  receptacles:
+  - bowl
+  - top shelf
+  - bottom shelf
+  room: pantry room
+  seen_objects:
+  - barley
+  - rice
+  - garlic
+  - mayonnaise
+  - salad dressing
+  - thyme
+  seen_placements:
+  - - barley
+    - bottom shelf
+  - - rice
+    - bottom shelf
+  - - garlic
+    - bowl
+  - - mayonnaise
+    - top shelf
+  - - salad dressing
+    - top shelf
+  - - thyme
+    - bowl
+  tags:
+  - category
+  - function
+  unseen_objects:
+  - oats
+  - bay leaves
+  - fennel
+  - mustard
+  - BBQ sauce
+  - wheat
+  unseen_placements:
+  - - oats
+    - bottom shelf
+  - - bay leaves
+    - bowl
+  - - fennel
+    - bowl
+  - - mustard
+    - top shelf
+  - - BBQ sauce
+    - top shelf
+  - - wheat
+    - bottom shelf
+- annotator_notes: Put dessert ingredients in the drawer, cereals on the rack, and
+    other food items on the shelf.
+  receptacles:
+  - drawer
+  - rack
+  - shelf
+  room: pantry room
+  seen_objects:
+  - chocolate chips
+  - powdered sugar
+  - lentils
+  - Frosted Flakes cereal
+  - canned fish
+  - Cinnamon Toast Crunch
+  seen_placements:
+  - - chocolate chips
+    - drawer
+  - - powdered sugar
+    - drawer
+  - - lentils
+    - shelf
+  - - Frosted Flakes cereal
+    - rack
+  - - canned fish
+    - shelf
+  - - Cinnamon Toast Crunch
+    - rack
+  tags:
+  - category
+  - subcategory
+  - function
+  unseen_objects:
+  - vanilla extract
+  - marshmallows
+  - balsamic vinegar
+  - Lucky Charms cereal
+  - beef broth
+  - Raisin Bran cereal
+  unseen_placements:
+  - - vanilla extract
+    - drawer
+  - - marshmallows
+    - drawer
+  - - balsamic vinegar
+    - shelf
+  - - Lucky Charms cereal
+    - rack
+  - - beef broth
+    - shelf
+  - - Raisin Bran cereal
+    - rack
+- annotator_notes: Put vegetables in the box, canned drinks on the floor, bottled
+    drinks on the shelf, and snacks in the basket.
+  receptacles:
+  - box
+  - floor
+  - shelf
+  - basket
+  room: pantry room
+  seen_objects:
+  - Pringles potato chips
+  - Fanta can
+  - Arizona iced tea can
+  - Dasani water
+  - Gatorade
+  - Jell-O pudding cups
+  - pumpkin
+  - kale
+  seen_placements:
+  - - Pringles potato chips
+    - basket
+  - - Fanta can
+    - floor
+  - - Arizona iced tea can
+    - floor
+  - - Dasani water
+    - shelf
+  - - Gatorade
+    - shelf
+  - - Jell-O pudding cups
+    - basket
+  - - pumpkin
+    - box
+  - - kale
+    - box
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - Tropicana juice bottle
+  - broccoli
+  - Triscuit crackers
+  - trail mix
+  - zucchini
+  - Coca-Cola can
+  - Smartwater
+  - Red Bull can
+  unseen_placements:
+  - - Tropicana juice bottle
+    - shelf
+  - - broccoli
+    - box
+  - - Triscuit crackers
+    - basket
+  - - trail mix
+    - basket
+  - - zucchini
+    - box
+  - - Coca-Cola can
+    - floor
+  - - Smartwater
+    - shelf
+  - - Red Bull can
+    - floor
+- annotator_notes: Put grains in the large storage box, spices in the small storage
+    container, drinks on the rack, and ramen noodles on the shelf.
+  receptacles:
+  - large storage box
+  - small storage container
+  - rack
+  - shelf
+  room: pantry room
+  seen_objects:
+  - Nestea iced tea
+  - kombucha
+  - dried oregano
+  - couscous
+  - Sapporo Ichiban noodles
+  - paprika
+  - Nongshim ramen noodles
+  - jasmine rice
+  seen_placements:
+  - - Nestea iced tea
+    - rack
+  - - kombucha
+    - rack
+  - - dried oregano
+    - small storage container
+  - - couscous
+    - large storage box
+  - - Sapporo Ichiban noodles
+    - shelf
+  - - paprika
+    - small storage container
+  - - Nongshim ramen noodles
+    - shelf
+  - - jasmine rice
+    - large storage box
+  tags:
+  - category
+  unseen_objects:
+  - Monster energy drink
+  - black pepper
+  - lemonade
+  - Nissin cup noodles
+  - nutmeg
+  - Barilla pasta
+  - Quaker oats
+  - Maruchan ramen noodles
+  unseen_placements:
+  - - Monster energy drink
+    - rack
+  - - black pepper
+    - small storage container
+  - - lemonade
+    - rack
+  - - Nissin cup noodles
+    - shelf
+  - - nutmeg
+    - small storage container
+  - - Barilla pasta
+    - large storage box
+  - - Quaker oats
+    - large storage box
+  - - Maruchan ramen noodles
+    - shelf
+- annotator_notes: Put dried fruits on the top shelf, nuts and legumes on the middle
+    shelf, cereals on the bottom shelf, and soda on the floor.
+  receptacles:
+  - top shelf
+  - middle shelf
+  - bottom shelf
+  - floor
+  room: pantry room
+  seen_objects:
+  - dried pineapple
+  - walnuts
+  - raisins
+  - Rice Krispies cereal
+  - chickpeas
+  - Coca-Cola
+  - Kellogg's Special K cereal
+  - Pepsi
+  seen_placements:
+  - - dried pineapple
+    - top shelf
+  - - walnuts
+    - middle shelf
+  - - raisins
+    - top shelf
+  - - Rice Krispies cereal
+    - bottom shelf
+  - - chickpeas
+    - middle shelf
+  - - Coca-Cola
+    - floor
+  - - Kellogg's Special K cereal
+    - bottom shelf
+  - - Pepsi
+    - floor
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - prunes
+  - pinto beans
+  - Nature's Path cereal
+  - Sprite
+  - Raisin Bran cereal
+  - Mountain Dew
+  - dried goji berries
+  - pecans
+  unseen_placements:
+  - - prunes
+    - top shelf
+  - - pinto beans
+    - middle shelf
+  - - Nature's Path cereal
+    - bottom shelf
+  - - Sprite
+    - floor
+  - - Raisin Bran cereal
+    - bottom shelf
+  - - Mountain Dew
+    - floor
+  - - dried goji berries
+    - top shelf
+  - - pecans
+    - middle shelf
+- annotator_notes: Put heavy ingredients on the bottom shelf, seasonings in the drawer,
+    packaged meals in the top shelf, and snacks on the middle shelf.
+  receptacles:
+  - bottom shelf
+  - drawer
+  - top shelf
+  - middle shelf
+  room: pantry room
+  seen_objects:
+  - Kraft macaroni and cheese
+  - large bag of rice
+  - box of canned beans
+  - coriander
+  - Progresso Vegetable Soup
+  - Rold Gold pretzels
+  - dill seed
+  - Planters peanuts
+  seen_placements:
+  - - Kraft macaroni and cheese
+    - top shelf
+  - - large bag of rice
+    - bottom shelf
+  - - box of canned beans
+    - bottom shelf
+  - - coriander
+    - drawer
+  - - Progresso Vegetable Soup
+    - top shelf
+  - - Rold Gold pretzels
+    - middle shelf
+  - - dill seed
+    - drawer
+  - - Planters peanuts
+    - middle shelf
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - Nutter Butter cookies
+  - Campbell's chicken noodle soup
+  - case of soda
+  - star anise
+  - thyme
+  - Hershey's chocolate bar
+  - instant rice
+  - case of pickle jars
+  unseen_placements:
+  - - Nutter Butter cookies
+    - middle shelf
+  - - Campbell's chicken noodle soup
+    - top shelf
+  - - case of soda
+    - bottom shelf
+  - - star anise
+    - drawer
+  - - thyme
+    - drawer
+  - - Hershey's chocolate bar
+    - middle shelf
+  - - instant rice
+    - top shelf
+  - - case of pickle jars
+    - bottom shelf
+- annotator_notes: Put fresh produce in the top shelf, non-perishable food items in
+    the bottom shelf, fruits in the fruit bowl, and non-food items in the drawer.
+  receptacles:
+  - top shelf
+  - bottom shelf
+  - fruit bowl
+  - drawer
+  room: pantry room
+  seen_objects:
+  - apples
+  - jarred ham
+  - stainless steel pot
+  - lemons
+  - eggplant
+  - canned tomatoes
+  - bell peppers
+  - napkins
+  seen_placements:
+  - - apples
+    - fruit bowl
+  - - jarred ham
+    - bottom shelf
+  - - stainless steel pot
+    - drawer
+  - - lemons
+    - fruit bowl
+  - - eggplant
+    - top shelf
+  - - canned tomatoes
+    - bottom shelf
+  - - bell peppers
+    - top shelf
+  - - napkins
+    - drawer
+  tags:
+  - category
+  - subcategory
+  - attribute
+  unseen_objects:
+  - tongs
+  - canned barley soup
+  - pineapple
+  - jar of marinara sauce
+  - paper towels
+  - turnips
+  - peaches
+  - butternut squash
+  unseen_placements:
+  - - tongs
+    - drawer
+  - - canned barley soup
+    - bottom shelf
+  - - pineapple
+    - fruit bowl
+  - - jar of marinara sauce
+    - bottom shelf
+  - - paper towels
+    - drawer
+  - - turnips
+    - top shelf
+  - - peaches
+    - fruit bowl
+  - - butternut squash
+    - top shelf
+- annotator_notes: Put oil and vinegar on the leftmost shelf, canned food on the floor,
+    snacks in the basket, and sauces on the top shelf.
+  receptacles:
+  - leftmost shelf
+  - floor
+  - basket
+  - top shelf
+  room: pantry room
+  seen_objects:
+  - Kraft BBQ sauce
+  - energy bar
+  - canned chickpeas
+  - vegetable oil
+  - canned green chiles
+  - Prego tomato sauce
+  - cranberries
+  - white vinegar
+  seen_placements:
+  - - Kraft BBQ sauce
+    - top shelf
+  - - energy bar
+    - basket
+  - - canned chickpeas
+    - floor
+  - - vegetable oil
+    - leftmost shelf
+  - - canned green chiles
+    - floor
+  - - Prego tomato sauce
+    - top shelf
+  - - cranberries
+    - basket
+  - - white vinegar
+    - leftmost shelf
+  tags:
+  - category
+  - subcategory
+  - multiple categories
+  - attribute
+  unseen_objects:
+  - canned sardines
+  - ranch dressing
+  - Nature Valley bar
+  - rice vinegar
+  - canned adzuki beans
+  - Oberto beef jerky
+  - Sriracha hot sauce
+  - canola oil
+  unseen_placements:
+  - - canned sardines
+    - floor
+  - - ranch dressing
+    - top shelf
+  - - Nature Valley bar
+    - basket
+  - - rice vinegar
+    - leftmost shelf
+  - - canned adzuki beans
+    - floor
+  - - Oberto beef jerky
+    - basket
+  - - Sriracha hot sauce
+    - top shelf
+  - - canola oil
+    - leftmost shelf
+- annotator_notes: Put canned goods on the left shelf, baking ingredients on the right
+    shelf, grains on the bottom shelf, fruits on the rack, and snacks on the top shelf.
+  receptacles:
+  - left shelf
+  - right shelf
+  - bottom shelf
+  - rack
+  - top shelf
+  room: pantry room
+  seen_objects:
+  - walnuts
+  - papaya
+  - Chicken of the Sea canned tuna
+  - cupcakes
+  - blueberries
+  - canned green beans
+  - Minute Rice
+  - baking soda
+  - Pearl Barley
+  - flour
+  seen_placements:
+  - - walnuts
+    - top shelf
+  - - papaya
+    - rack
+  - - Chicken of the Sea canned tuna
+    - left shelf
+  - - cupcakes
+    - top shelf
+  - - blueberries
+    - rack
+  - - canned green beans
+    - left shelf
+  - - Minute Rice
+    - bottom shelf
+  - - baking soda
+    - right shelf
+  - - Pearl Barley
+    - bottom shelf
+  - - flour
+    - right shelf
+  tags:
+  - category
+  - subcategory
+  - attribute
+  - function
+  unseen_objects:
+  - vegetable chips
+  - De Cecco pasta
+  - gummies
+  - sugar
+  - cake flour
+  - canned carrots
+  - Bob's Red Mill millet
+  - canned mackerel
+  - plums
+  - apricots
+  unseen_placements:
+  - - vegetable chips
+    - top shelf
+  - - De Cecco pasta
+    - bottom shelf
+  - - gummies
+    - top shelf
+  - - sugar
+    - right shelf
+  - - cake flour
+    - right shelf
+  - - canned carrots
+    - left shelf
+  - - Bob's Red Mill millet
+    - bottom shelf
+  - - canned mackerel
+    - left shelf
+  - - plums
+    - rack
+  - - apricots
+    - rack
+- annotator_notes: Put tea on the top rack, rice in the cabinet, snacks in the storage
+    box, sauces on the shelf, and pasta on the floor.
+  receptacles:
+  - top rack
+  - cabinet
+  - storage box
+  - shelf
+  - floor
+  room: pantry room
+  seen_objects:
+  - farfalle
+  - fish sauce
+  - Twinings tea leaves
+  - macaroni
+  - wild rice
+  - Ritz crackers
+  - white rice
+  - Heinz ketchup
+  - black tea
+  - air-popped popcorn
+  seen_placements:
+  - - farfalle
+    - floor
+  - - fish sauce
+    - shelf
+  - - Twinings tea leaves
+    - top rack
+  - - macaroni
+    - floor
+  - - wild rice
+    - cabinet
+  - - Ritz crackers
+    - storage box
+  - - white rice
+    - cabinet
+  - - Heinz ketchup
+    - shelf
+  - - black tea
+    - top rack
+  - - air-popped popcorn
+    - storage box
+  tags:
+  - category
+  unseen_objects:
+  - sesame oil
+  - beef jerky
+  - sushi rice
+  - herbal tea
+  - dried blueberries
+  - Lipton loose tea
+  - penne
+  - rigatoni
+  - mustard
+  - basmati rice
+  unseen_placements:
+  - - sesame oil
+    - shelf
+  - - beef jerky
+    - storage box
+  - - sushi rice
+    - cabinet
+  - - herbal tea
+    - top rack
+  - - dried blueberries
+    - storage box
+  - - Lipton loose tea
+    - top rack
+  - - penne
+    - floor
+  - - rigatoni
+    - floor
+  - - mustard
+    - shelf
+  - - basmati rice
+    - cabinet
+- annotator_notes: Put soup stock on the floor, chocolate goods on the bottom shelf,
+    instant noodles on the middle shelf, baking ingredients on the top shelf, and
+    canned goods in the cardboard box.
+  receptacles:
+  - floor
+  - bottom shelf
+  - middle shelf
+  - top shelf
+  - cardboard box
+  room: pantry room
+  seen_objects:
+  - vegetable stock
+  - chicken stock
+  - chocolate chips
+  - canned olives
+  - hot chocolate mix
+  - baking powder
+  - Maruchan ramen noodles
+  - canned adzuki beans
+  - Nissin cup noodles
+  - pastry flour
+  seen_placements:
+  - - vegetable stock
+    - floor
+  - - chicken stock
+    - floor
+  - - chocolate chips
+    - bottom shelf
+  - - canned olives
+    - cardboard box
+  - - hot chocolate mix
+    - bottom shelf
+  - - baking powder
+    - top shelf
+  - - Maruchan ramen noodles
+    - middle shelf
+  - - canned adzuki beans
+    - cardboard box
+  - - Nissin cup noodles
+    - middle shelf
+  - - pastry flour
+    - top shelf
+  tags:
+  - category
+  - subcategory
+  - attribute
+  - function
+  unseen_objects:
+  - cake flour
+  - canned beetroot
+  - fish stock
+  - instant cup noodles
+  - baking chocolate
+  - Del Monte canned pineapple chunks
+  - beef stock
+  - vanilla extract
+  - Hershey's chocolate bar
+  - Shin Ramyun noodles
+  unseen_placements:
+  - - cake flour
+    - top shelf
+  - - canned beetroot
+    - cardboard box
+  - - fish stock
+    - floor
+  - - instant cup noodles
+    - middle shelf
+  - - baking chocolate
+    - bottom shelf
+  - - Del Monte canned pineapple chunks
+    - cardboard box
+  - - beef stock
+    - floor
+  - - vanilla extract
+    - top shelf
+  - - Hershey's chocolate bar
+    - bottom shelf
+  - - Shin Ramyun noodles
+    - middle shelf
+- annotator_notes: Put fruits in shelf 1, chips in shelf 2, cereal and rice in the
+    rack, candy in the basket, and bottled drinks on the floor.
+  receptacles:
+  - shelf 1
+  - shelf 2
+  - rack
+  - basket
+  - floor
+  room: pantry room
+  seen_objects:
+  - Doritos
+  - Haribo gummies
+  - Lipton iced tea
+  - Gatorade
+  - jelly beans
+  - Lucky Charms cereal
+  - apple
+  - glutinous rice
+  - mango
+  - Fritos corn chips
+  seen_placements:
+  - - Doritos
+    - shelf 2
+  - - Haribo gummies
+    - basket
+  - - Lipton iced tea
+    - floor
+  - - Gatorade
+    - floor
+  - - jelly beans
+    - basket
+  - - Lucky Charms cereal
+    - rack
+  - - apple
+    - shelf 1
+  - - glutinous rice
+    - rack
+  - - mango
+    - shelf 1
+  - - Fritos corn chips
+    - shelf 2
+  tags:
+  - category
+  - multiple categories
+  unseen_objects:
+  - Royal basmati rice
+  - orange
+  - Starburst
+  - Tootsie Pops
+  - Vitamin Water
+  - Ocean Spray juice
+  - Cape Cod kettle chips
+  - pineapple
+  - Tostitos chips
+  - Frosted Flakes cereal
+  unseen_placements:
+  - - Royal basmati rice
+    - rack
+  - - orange
+    - shelf 1
+  - - Starburst
+    - basket
+  - - Tootsie Pops
+    - basket
+  - - Vitamin Water
+    - floor
+  - - Ocean Spray juice
+    - floor
+  - - Cape Cod kettle chips
+    - shelf 2
+  - - pineapple
+    - shelf 1
+  - - Tostitos chips
+    - shelf 2
+  - - Frosted Flakes cereal
+    - rack
+- annotator_notes: Put sugary drinks on the bottom shelf, bottled water on the middle
+    shelf, fruit-flavored snacks on the top shelf, chocolate-flavored snacks on the
+    top rack, and canned goods on the floor.
+  receptacles:
+  - bottom shelf
+  - middle shelf
+  - top shelf
+  - top rack
+  - floor
+  room: pantry room
+  seen_objects:
+  - Red Bull energy drink
+  - canned albacore
+  - lemonade
+  - Nestle chocolate bar
+  - chocolate-covered raisins
+  - Annie's fruit leather
+  - Aquafina bottled water
+  - canned black beans
+  - Evian bottled water
+  - fruit roll-ups
+  seen_placements:
+  - - Red Bull energy drink
+    - bottom shelf
+  - - canned albacore
+    - floor
+  - - lemonade
+    - bottom shelf
+  - - Nestle chocolate bar
+    - top rack
+  - - chocolate-covered raisins
+    - top rack
+  - - Annie's fruit leather
+    - top shelf
+  - - Aquafina bottled water
+    - middle shelf
+  - - canned black beans
+    - floor
+  - - Evian bottled water
+    - middle shelf
+  - - fruit roll-ups
+    - top shelf
+  tags:
+  - category
+  - attribute
+  unseen_objects:
+  - canned cooked pork
+  - Haribo gummy worms
+  - Dasani bottled water
+  - Ferrero Rocher
+  - canned pumpkin
+  - Mott's fruit snacks
+  - Sprite
+  - Poland Spring bottled water
+  - Godiva chocolate truffles
+  - Arizona iced tea
+  unseen_placements:
+  - - canned cooked pork
+    - floor
+  - - Haribo gummy worms
+    - top shelf
+  - - Dasani bottled water
+    - middle shelf
+  - - Ferrero Rocher
+    - top rack
+  - - canned pumpkin
+    - floor
+  - - Mott's fruit snacks
+    - top shelf
+  - - Sprite
+    - bottom shelf
+  - - Poland Spring bottled water
+    - middle shelf
+  - - Godiva chocolate truffles
+    - top rack
+  - - Arizona iced tea
+    - bottom shelf
+- annotator_notes: Put snacks in the bottom shelf, spices in the plastic bin, rice
+    on the floor, canned food in the drawer, and pasta in the top shelf.
+  receptacles:
+  - bottom shelf
+  - plastic bin
+  - floor
+  - drawer
+  - top shelf
+  room: pantry room
+  seen_objects:
+  - wild rice
+  - cinnamon
+  - Jell-O cups
+  - Lindt chocolates
+  - canned salsa
+  - Nishiki sushi rice
+  - canned mixed fruit
+  - fettuccine
+  - mustard seed
+  - elbow macaroni
+  seen_placements:
+  - - wild rice
+    - floor
+  - - cinnamon
+    - plastic bin
+  - - Jell-O cups
+    - bottom shelf
+  - - Lindt chocolates
+    - bottom shelf
+  - - canned salsa
+    - drawer
+  - - Nishiki sushi rice
+    - floor
+  - - canned mixed fruit
+    - drawer
+  - - fettuccine
+    - top shelf
+  - - mustard seed
+    - plastic bin
+  - - elbow macaroni
+    - top shelf
+  tags:
+  - category
+  unseen_objects:
+  - spaghetti
+  - canned mushroom soup
+  - canned crushed tomatoes
+  - turmeric
+  - angel hair
+  - Black Forest gummies
+  - Stacy's pita chips
+  - Uncle Ben's white rice
+  - black rice
+  - sage
+  unseen_placements:
+  - - spaghetti
+    - top shelf
+  - - canned mushroom soup
+    - drawer
+  - - canned crushed tomatoes
+    - drawer
+  - - turmeric
+    - plastic bin
+  - - angel hair
+    - top shelf
+  - - Black Forest gummies
+    - bottom shelf
+  - - Stacy's pita chips
+    - bottom shelf
+  - - Uncle Ben's white rice
+    - floor
+  - - black rice
+    - floor
+  - - sage
+    - plastic bin

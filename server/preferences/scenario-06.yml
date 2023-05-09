@@ -1,0 +1,15 @@
+categories:
+- pen or marker
+- stuffed animal
+- clothing
+- rubber glove
+placements:
+  clothing: chair
+  pen or marker: plastic storage box
+  rubber glove: drawer
+  stuffed animal: sofa
+primitives:
+  clothing: place
+  pen or marker: toss
+  rubber glove: place
+  stuffed animal: place

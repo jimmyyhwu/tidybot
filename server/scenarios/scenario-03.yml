@@ -1,0 +1,53 @@
+annotator_notes: Put fruits on the left shelf, wooden blocks in the middle shelf, and construction tools in the right shelf. Pick and place everything.
+seen_objects: [handsaw, green wooden block, white wooden block, hammer, peach, apple]
+seen_placements: [
+  [handsaw, right shelf],
+  [green wooden block, middle shelf],
+  [white wooden block, middle shelf],
+  [hammer, right shelf],
+  [peach, left shelf],
+  [apple, left shelf],
+]
+seen_primitives: [
+  [handsaw, place],
+  [green wooden block, place],
+  [white wooden block, place],
+  [hammer, place],
+  [peach, place],
+  [apple, place],
+]
+unseen_objects: [lemon, banana, plum, strawberry, wooden block, red wooden block, purple wooden block, power drill, wrench, clamp]
+unseen_placements: [
+  [lemon, left shelf],
+  [banana, left shelf],
+  [plum, left shelf],
+  [strawberry, left shelf],
+  [wooden block, middle shelf],
+  [red wooden block, middle shelf],
+  [purple wooden block, middle shelf],
+  [power drill, right shelf],
+  [wrench, right shelf],
+  [clamp, right shelf],
+]
+receptacles:
+  left shelf:
+    position: [0.610, -0.915]
+    dimensions: [0.912, 0.296]
+    primitive_names: [place]
+    center_offset: [0.30, 0.148]
+    end_effector_offset: 0.75
+  middle shelf:
+    position: [0.610, -0.915]
+    dimensions: [0.912, 0.296]
+    primitive_names: [place]
+    center_offset: [0.0, 0.148]
+    end_effector_offset: 0.75
+  right shelf:
+    position: [0.610, -0.915]
+    dimensions: [0.912, 0.296]
+    primitive_names: [place]
+    center_offset: [-0.30, 0.148]
+    end_effector_offset: 0.75
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]

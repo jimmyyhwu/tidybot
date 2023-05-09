@@ -1,0 +1,18 @@
+categories:
+- clothing
+- snack
+- can
+- wooden block
+- fruit
+placements:
+  can: recycling bin
+  clothing: sofa
+  fruit: black storage box
+  snack: plastic storage box
+  wooden block: drawer
+primitives:
+  can: toss
+  clothing: place
+  fruit: toss
+  snack: toss
+  wooden block: place

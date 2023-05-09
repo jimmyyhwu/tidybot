@@ -1,0 +1,18 @@
+categories:
+- stuffed animal
+- sock
+- shoe
+- clothing
+- hat
+placements:
+  clothing: seagrass laundry basket
+  hat: drawer
+  shoe: black storage box
+  sock: white laundry basket
+  stuffed animal: sofa
+primitives:
+  clothing: place
+  hat: place
+  shoe: place
+  sock: toss
+  stuffed animal: place

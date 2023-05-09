@@ -1,0 +1,9 @@
+categories:
+- Rubik's cube
+- toy
+placements:
+  Rubik's cube: coffee table
+  toy: plastic storage box
+primitives:
+  Rubik's cube: place
+  toy: toss

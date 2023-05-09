@@ -1,0 +1,61 @@
+annotator_notes: Put paper napkins in the trash can, soda cans in the recycling bin, plastic bags in the black storage box, and utensils on the coffee table. Pick and place paper napkins, plastic bags, and utensils, pick and toss soda cans.
+seen_objects: [plastic fork, plastic bag 1, Chipotle paper napkin, Coke can, plastic bag 2, plastic spoon, paper towel, Sprite can]
+seen_placements: [
+  [plastic fork, coffee table],
+  [plastic bag 1, black storage box],
+  [Chipotle paper napkin, trash can],
+  [Coke can, recycling bin],
+  [plastic bag 2, black storage box],
+  [plastic spoon, coffee table],
+  [paper towel, trash can],
+  [Sprite can, recycling bin],
+]
+seen_primitives: [
+  [plastic fork, place],
+  [plastic bag 1, place],
+  [Chipotle paper napkin, place],
+  [Coke can, toss],
+  [plastic bag 2, place],
+  [plastic spoon, place],
+  [paper towel, place],
+  [Sprite can, toss],
+]
+unseen_objects: [paper towel, paper napkin, paper napkin 2, Coke can, soda can, plastic bag, plastic bag 2, plastic bag 3, plastic fork, plastic spoon]
+unseen_placements: [
+  [paper towel, trash can],
+  [paper napkin, trash can],
+  [paper napkin 2, trash can],
+  [Coke can, recycling bin],
+  [soda can, recycling bin],
+  [plastic bag, black storage box],
+  [plastic bag 2, black storage box],
+  [plastic bag 3, black storage box],
+  [plastic fork, coffee table],
+  [plastic spoon, coffee table],
+]
+receptacles:
+  trash can:
+    position: [-0.610, -0.610]
+    dimensions: [0.296, 0.215]
+    primitive_names: [place, toss]
+    place_height: 0.1
+  recycling bin:
+    position: [-0.610, -0.305]
+    dimensions: [0.293, 0.203]
+    primitive_names: [place, toss]
+    place_height: 0.1
+  black storage box:
+    position: [1.220, -0.305]
+    dimensions: [0.38, 0.33]
+    primitive_names: [place, toss]
+    place_height: 0.12
+  coffee table:
+    position: [0.610, -0.915]
+    dimensions: [0.9, 0.55]
+    primitive_names: [place]
+    center_offset: [0.0, 0.15]
+    end_effector_offset: 0.55
+    place_height: 0.165
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]

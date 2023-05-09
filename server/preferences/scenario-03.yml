@@ -1,0 +1,12 @@
+categories:
+- tool
+- wooden block
+- fruit
+placements:
+  fruit: left shelf
+  tool: right shelf
+  wooden block: middle shelf
+primitives:
+  fruit: place
+  tool: place
+  wooden block: place

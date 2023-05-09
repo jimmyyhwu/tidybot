@@ -1,0 +1,10 @@
+openai==0.26.1
+opencv-contrib-python==4.6.0.66
+matplotlib==3.5.3
+scikit-image==0.19.3
+Cython==0.29.32
+pyyaml==6.0
+tqdm==4.64.0
+jupyter==1.0.0
+pandas==1.4.3
+fpdf2==2.5.6

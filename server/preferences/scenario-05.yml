@@ -1,0 +1,15 @@
+categories:
+- plastic utensils
+- plastic bags
+- paper napkins and paper towels
+- cans
+placements:
+  cans: recycling bin
+  paper napkins and paper towels: trash can
+  plastic bags: black storage box
+  plastic utensils: coffee table
+primitives:
+  cans: toss
+  paper napkins and paper towels: place
+  plastic bags: place
+  plastic utensils: place

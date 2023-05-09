@@ -1,0 +1,68 @@
+annotator_notes: Put drink cans in the recycling bin, snacks in the plastic storage box, fruit in the black storage box, clothes on the sofa, and wooden blocks in the drawer. Pick and place clothing and wooden blocks, pick and toss drink cans, snacks, and fruit.
+seen_objects: [jacket, candy bar, soda can, Pepsi can, jeans, wooden block, orange, chips, wooden block 2, apple]
+seen_placements: [
+  [jacket, sofa],
+  [candy bar, plastic storage box],
+  [soda can, recycling bin],
+  [Pepsi can, recycling bin],
+  [jeans, sofa],
+  [wooden block, drawer],
+  [orange, black storage box],
+  [chips, plastic storage box],
+  [wooden block 2, drawer],
+  [apple, black storage box],
+]
+seen_primitives: [
+  [jacket, place],
+  [candy bar, toss],
+  [soda can, toss],
+  [Pepsi can, toss],
+  [jeans, place],
+  [wooden block, place],
+  [orange, toss],
+  [chips, toss],
+  [wooden block 2, place],
+  [apple, toss],
+]
+unseen_objects: [Coke can, soda can, Kind snack bar, NuGo protein bar, banana, apple, blue shorts, Adidas shirt, wooden block, blue wooden block]
+unseen_placements: [
+  [Coke can, recycling bin],
+  [soda can, recycling bin],
+  [Kind snack bar, plastic storage box],
+  [NuGo protein bar, plastic storage box],
+  [banana, black storage box],
+  [apple, black storage box],
+  [blue shorts, sofa],
+  [Adidas shirt, sofa],
+  [wooden block, drawer],
+  [blue wooden block, drawer],
+]
+receptacles:
+  recycling bin:
+    position: [-0.915, 0.305]
+    dimensions: [0.293, 0.203]
+    primitive_names: [place, toss]
+    place_height: 0.1
+  plastic storage box:
+    position: [-0.915, -0.610]
+    dimensions: [0.333, 0.245]
+    primitive_names: [place, toss]
+    place_height: -0.05
+  black storage box:
+    position: [-0.915, -1.220]
+    dimensions: [0.38, 0.33]
+    primitive_names: [place, toss]
+    place_height: 0.12
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]
+    primitive_names: [place]
+    center_offset: [0.0, 0.17]
+    end_effector_offset: 0.55
+    place_height: 0.25
+  drawer:
+    position: [1.416, -0.915]
+    dimensions: [0.392, 0.764]
+    primitive_names: [place]
+    center_offset: [-0.196, 0.182]
+    end_effector_offset: 0.80

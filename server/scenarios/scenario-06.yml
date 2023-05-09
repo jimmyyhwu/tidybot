@@ -1,0 +1,61 @@
+annotator_notes: Put marker pens in the plastic storage box, clothes on the chair, plush toys on the sofa, and rubber gloves in the drawer. Pick and place clothes, plush toys, and rubber gloves, pick and toss marker pens.
+seen_objects: [blue marker pen, stuffed giraffe, teddy bear, jacket, pants, rubber gloves, black marker pen, rubber gloves 2]
+seen_placements: [
+  [blue marker pen, plastic storage box],
+  [stuffed giraffe, sofa],
+  [teddy bear, sofa],
+  [jacket, chair],
+  [pants, chair],
+  [rubber gloves, drawer],
+  [black marker pen, plastic storage box],
+  [rubber gloves 2, drawer],
+]
+seen_primitives: [
+  [blue marker pen, toss],
+  [stuffed giraffe, place],
+  [teddy bear, place],
+  [jacket, place],
+  [pants, place],
+  [rubber gloves, place],
+  [black marker pen, toss],
+  [rubber gloves 2, place],
+]
+unseen_objects: [green marker, pink marker, red marker, blue shirt, blue shorts, stuffed animal, stuffed animal 2, stuffed animal 3, blue rubber glove, yellow rubber glove]
+unseen_placements: [
+  [green marker, plastic storage box],
+  [pink marker, plastic storage box],
+  [red marker, plastic storage box],
+  [blue shirt, chair],
+  [blue shorts, chair],
+  [stuffed animal, sofa],
+  [stuffed animal 2, sofa],
+  [stuffed animal 3, sofa],
+  [blue rubber glove, drawer],
+  [yellow rubber glove, drawer],
+]
+receptacles:
+  plastic storage box:
+    position: [1.416, 0.0]
+    dimensions: [0.333, 0.245]
+    primitive_names: [place, toss]
+    place_height: -0.05
+  chair:
+    position: [-0.915, -0.610]
+    dimensions: [0.58, 0.58]
+    primitive_names: [place]
+    center_offset: [0.0, 0.0]
+    end_effector_offset: 0.55
+    place_height: 0.3
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]
+    primitive_names: [place]
+    center_offset: [0.0, 0.17]
+    end_effector_offset: 0.55
+    place_height: 0.25
+  drawer:
+    position: [1.416, -0.915]
+    dimensions: [0.392, 0.764]
+    primitive_names: [place]
+    center_offset: [-0.196, 0.182]
+    end_effector_offset: 0.80

@@ -1,0 +1,41 @@
+annotator_notes: Put dark-colored clothes in the white laundry basket and light-colored clothes in the seagrass laundry basket. Pick and place everything.
+seen_objects: [cream pants, dark gray pants, dark navy shirt, white shirt]
+seen_placements: [
+  [cream pants, seagrass laundry basket],
+  [dark gray pants, white laundry basket],
+  [dark navy shirt, white laundry basket],
+  [white shirt, seagrass laundry basket],
+]
+seen_primitives: [
+  [cream pants, place],
+  [dark gray pants, place],
+  [dark navy shirt, place],
+  [white shirt, place],
+]
+unseen_objects: [blue jeans, blue sock, blue hat, blue shirt, olive green tank top, white sock, white hat, light gray shirt, white dress, beige shirt]
+unseen_placements: [
+  [blue jeans, white laundry basket],
+  [blue sock, white laundry basket],
+  [blue hat, white laundry basket],
+  [blue shirt, white laundry basket],
+  [olive green tank top, white laundry basket],
+  [white sock, seagrass laundry basket],
+  [white hat, seagrass laundry basket],
+  [light gray shirt, seagrass laundry basket],
+  [white dress, seagrass laundry basket],
+  [beige shirt, seagrass laundry basket],
+]
+receptacles:
+  white laundry basket:
+    position: [0.610, -0.610]
+    dimensions: [0.44, 0.44]
+    primitive_names: [place, toss]
+    place_height: 0.3
+  seagrass laundry basket:
+    position: [-0.305, -0.610]
+    dimensions: [0.60, 0.46]
+    primitive_names: [place, toss]
+    place_height: 0.3
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]

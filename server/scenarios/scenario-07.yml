@@ -1,0 +1,68 @@
+annotator_notes: Put hats in the drawer, socks in the white laundry basket, other clothes in the seagrass laundry basket, shoes in the black storage box, and plush toys on the sofa. Pick and place hats, other clothes, shoes, and plush toys, pick and toss socks.
+seen_objects: [stuffed penguin, crew sock, stuffed alligator, dress sock, tennis shoe, shirt, dress shoe, pants, beanie, baseball cap]
+seen_placements: [
+  [stuffed penguin, sofa],
+  [crew sock, white laundry basket],
+  [stuffed alligator, sofa],
+  [dress sock, white laundry basket],
+  [tennis shoe, black storage box],
+  [shirt, seagrass laundry basket],
+  [dress shoe, black storage box],
+  [pants, seagrass laundry basket],
+  [beanie, drawer],
+  [baseball cap, drawer],
+]
+seen_primitives: [
+  [stuffed penguin, place],
+  [crew sock, toss],
+  [stuffed alligator, place],
+  [dress sock, toss],
+  [tennis shoe, place],
+  [shirt, place],
+  [dress shoe, place],
+  [pants, place],
+  [beanie, place],
+  [baseball cap, place],
+]
+unseen_objects: [pink hat, white hat, blue sock, gray sock, red shirt, blue shirt, left shoe, right shoe, stuffed horse, stuffed dog]
+unseen_placements: [
+  [pink hat, drawer],
+  [white hat, drawer],
+  [blue sock, white laundry basket],
+  [gray sock, white laundry basket],
+  [red shirt, seagrass laundry basket],
+  [blue shirt, seagrass laundry basket],
+  [left shoe, black storage box],
+  [right shoe, black storage box],
+  [stuffed horse, sofa],
+  [stuffed dog, sofa],
+]
+receptacles:
+  drawer:
+    position: [1.416, -0.915]
+    dimensions: [0.392, 0.764]
+    primitive_names: [place]
+    center_offset: [-0.196, 0.182]
+    end_effector_offset: 0.80
+  white laundry basket:
+    position: [-0.915, -0.610]
+    dimensions: [0.44, 0.44]
+    primitive_names: [place, toss]
+    place_height: 0.3
+  seagrass laundry basket:
+    position: [-0.915, -1.220]
+    dimensions: [0.60, 0.46]
+    primitive_names: [place, toss]
+    place_height: 0.3
+  black storage box:
+    position: [-0.915, 0.0]
+    dimensions: [0.38, 0.33]
+    primitive_names: [place, toss]
+    place_height: 0.12
+  sofa:
+    position: [0.115, -1.93]  # Right in front of Vention
+    dimensions: [1.87, 0.91]
+    primitive_names: [place]
+    center_offset: [0.0, 0.17]
+    end_effector_offset: 0.55
+    place_height: 0.25

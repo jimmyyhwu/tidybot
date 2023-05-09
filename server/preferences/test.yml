@@ -1,0 +1,9 @@
+categories:
+- clothing
+- toy
+placements:
+  clothing: white laundry basket
+  toy: plastic storage box
+primitives:
+  clothing: place
+  toy: toss

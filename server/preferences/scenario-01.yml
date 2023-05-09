@@ -1,0 +1,9 @@
+categories:
+- light-colored clothing
+- dark-colored clothing
+placements:
+  dark-colored clothing: white laundry basket
+  light-colored clothing: seagrass laundry basket
+primitives:
+  dark-colored clothing: place
+  light-colored clothing: place
