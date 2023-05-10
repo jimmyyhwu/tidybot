@@ -1,0 +1,21 @@
+Source: https://calib.io/blogs/knowledge-base/calibration-best-practices
+
+Calibration Best Practices
+
+by Jakob W. November 15, 2018
+
+Accurate calibration is of key importance for performance in most machine and computer vision tasks. The following lists our best practices which we have found through extensive experimentation and theoretical considerations. 
+
+1. Choose the right size calibration target. Large enough to properly constrain parameters. Preferably it should cover approx. half of the total area when seen fronto-parallel in the camera images. 
+2. Perform calibration at the approximate working distance (WD) of your final application. The camera should be focused at this distance and lens focus should be unchanged after calibration.
+3. The target should have a high feature count. Using fine patterns is preferable. However, at some point detection robustness suffers. Our recommendation is to use fine pattern counts for cameras above 3MPx and if the lighting is controlled and good.
+4. Collect images from different areas and tilts. Move the target to fully cover the image area and aim for even coverage. Lens distortion can be properly determined from fronto-parallel images, but focal length estimation is dependent on observing foreshortening. Include both frontoparallel images, and images taken with the board tilted up to +/- 45 degrees in both horizontal an vertical directions. Tilting more is usually not a good idea as feature localization accuracy suffers and can become biased.
+5. Use good lighting. This is often overlooked, but hugely important. The calibration target should preferably be diffusely lit by means of controlled photography lighting. Strong point sources give rise to uneven illumination, possibly making detection fail, and not utilizing the camera's dynamic range very well. Shadows can do the same.
+6. Have enough observations. Usually, calibration should be performed on at least 6 observations (images) of a calibration target. If a higher order camera or distortion model is used, more observations are beneficial.
+7. Consider using uniquely coded targets such as CharuCo boards. These allow you to gather observations from the very edges of the camera sensor and lens, and hence constrain the distortion parameters very well. Also, they allow you to collect data even when some of the feature points do not fulfil the other requirements.
+8. Calibration is only as accurate as the calibration target used. Use laser or inkjet printed targets only to validate and test.
+9. Proper mounting of calibration target and camera. In order to minimize distortion and bow in larger targets, mount them either vertically, or laying flat on a rigid support. Consider moving the camera instead of the target in these cases instead. Use a quality tripod, and avoid touching the camera during acquisitions. 
+10. Remove bad observations. Carefully inspect reprojection errors. Both per-view and per-feature. If any of these appear as outliers, exclude them and recalibrate. 
+11. Obtaining a low reproduction error does not equal a good camera calibration, but merely indicates that the provided data/evidence can be described with the used model. This could be due to overfitting. Parameter uncertainties are indications of how well the chosen camera model was constrained.
+12. Analyse the individual reprojection errors. Their direction and magnitude should not correlate with position, i.e. they should point chaotically in all directions. Calib.io's Camera Calibrator software provides powerfull visualizations to investigate the reprojected errors.
+Following these practices should ensure the most accurate and precise calibration possible. 
