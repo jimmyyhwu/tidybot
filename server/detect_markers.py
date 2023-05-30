@@ -17,9 +17,10 @@ def main(serial):
     window_name = 'out'
     cv.namedWindow(window_name)
     while True:
-        # Fixed gain/exposure can be unreliable
-        assert cap.get(cv.CAP_PROP_GAIN) == 50
-        assert cap.get(cv.CAP_PROP_EXPOSURE) == 77
+        # Brighten image
+        #cap.set(cv.CAP_PROP_EXPOSURE, 156)
+        #cap.set(cv.CAP_PROP_EXPOSURE, 312)
+        #cap.set(cv.CAP_PROP_GAIN, 0)
 
         if cv.waitKey(1) == 27 or cv.getWindowProperty(window_name, cv.WND_PROP_VISIBLE) < 0.5:
             break

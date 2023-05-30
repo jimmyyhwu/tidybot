@@ -12,8 +12,6 @@ def main(args):
     image_width = args.image_width
     image_height = args.image_height
     cap = utils.get_video_cap(args.serial, image_width, image_height)
-    cap.set(cv2.CAP_PROP_FOCUS, 0)
-    assert cap.get(cv2.CAP_PROP_FOCUS) == 0
 
     # Set up aruco dict and board
     aruco_dict = cv2.aruco.Dictionary_get(MARKER_DICT_ID)
@@ -29,6 +27,11 @@ def main(args):
     all_ids = []
     all_imgs = []
     while True:
+        # Brighten image
+        #cap.set(cv2.CAP_PROP_EXPOSURE, 156)
+        cap.set(cv2.CAP_PROP_EXPOSURE, 312)
+        cap.set(cv2.CAP_PROP_GAIN, 0)
+
         _, image = cap.read()
         if image is None:
             continue

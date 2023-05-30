@@ -94,6 +94,7 @@ class Annotator:
     def run(self):
         cap = utils.get_video_cap(self.serial, self.image_width, self.image_height)
         while True:
+            # Brighten image
             cap.set(cv.CAP_PROP_EXPOSURE, 624)
             cap.set(cv.CAP_PROP_GAIN, 0)
 
