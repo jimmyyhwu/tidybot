@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 import cv2 as cv
 import yaml
-from constants import PIXELS_PER_M
+from constants import CAMERA_FOCUS, CAMERA_TEMPERATURE, CAMERA_EXPOSURE, CAMERA_GAIN, PIXELS_PER_M
 
 ################################################################################
 # Camera
@@ -26,10 +26,10 @@ def get_video_cap(serial, frame_width, frame_height):
     # Read several frames to let settings (especially gain/exposure) stabilize
     for _ in range(30):
         cap.read()
-        cap.set(cv.CAP_PROP_FOCUS, 0)  # Fixed focus
-        cap.set(cv.CAP_PROP_TEMPERATURE, 3900)  # Fixed white balance
-        cap.set(cv.CAP_PROP_GAIN, 50)  # Fixed gain
-        cap.set(cv.CAP_PROP_EXPOSURE, 77)  # Fixed exposure
+        cap.set(cv.CAP_PROP_FOCUS, CAMERA_FOCUS)  # Fixed focus
+        cap.set(cv.CAP_PROP_TEMPERATURE, CAMERA_TEMPERATURE)  # Fixed white balance
+        cap.set(cv.CAP_PROP_EXPOSURE, CAMERA_EXPOSURE)  # Fixed exposure
+        cap.set(cv.CAP_PROP_GAIN, CAMERA_GAIN)  # Fixed gain
 
     # Check all settings match expected
     assert cap.get(cv.CAP_PROP_FRAME_WIDTH) == frame_width
@@ -38,10 +38,10 @@ def get_video_cap(serial, frame_width, frame_height):
     assert cap.get(cv.CAP_PROP_AUTOFOCUS) == 0
     assert cap.get(cv.CAP_PROP_AUTO_WB) == 0
     assert cap.get(cv.CAP_PROP_AUTO_EXPOSURE) == 1
-    assert cap.get(cv.CAP_PROP_FOCUS) == 0
-    assert cap.get(cv.CAP_PROP_TEMPERATURE) == 3900
-    assert cap.get(cv.CAP_PROP_GAIN) == 50
-    assert cap.get(cv.CAP_PROP_EXPOSURE) == 77
+    assert cap.get(cv.CAP_PROP_FOCUS) == CAMERA_FOCUS
+    assert cap.get(cv.CAP_PROP_TEMPERATURE) == CAMERA_TEMPERATURE
+    assert cap.get(cv.CAP_PROP_EXPOSURE) == CAMERA_EXPOSURE
+    assert cap.get(cv.CAP_PROP_GAIN) == CAMERA_GAIN
 
     return cap
 

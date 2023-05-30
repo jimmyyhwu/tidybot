@@ -2,6 +2,7 @@
 import argparse
 import cv2 as cv
 import utils
+from constants import CAMERA_SERIALS
 from constants import MARKER_DICT_ID
 
 def main(serial):
@@ -49,7 +50,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.serial is None:
         if args.camera2:
-            args.serial = '099A11EE'
+            args.serial = CAMERA_SERIALS[1]
         else:
-            args.serial = 'E4298F4E'
+            args.serial = CAMERA_SERIALS[0]
     main(args.serial)

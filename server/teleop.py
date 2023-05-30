@@ -7,6 +7,7 @@ from multiprocessing import Process
 import cv2 as cv
 import utils
 from camera_server import CameraServer
+from constants import CAMERA_SERIALS
 from controller_client import ControllerClient
 from controller_server import ControllerServer
 from image_client import ImageClient
@@ -149,7 +150,7 @@ def main(args):
     # Start camera servers
     def start_camera_server(serial, port):
         CameraServer(serial, port=port).run()
-    for serial, port in [('E4298F4E', 6000), ('099A11EE', 6001)]:
+    for serial, port in [(CAMERA_SERIALS[0], 6000), (CAMERA_SERIALS[1], 6001)]:
         Process(target=start_camera_server, args=(serial, port), daemon=True).start()
 
     # Wait for camera servers to be ready

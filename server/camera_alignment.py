@@ -7,6 +7,7 @@ from pathlib import Path
 import cv2 as cv
 import numpy as np
 import utils
+from constants import CAMERA_SERIALS
 
 def compute_transformation_matrix(src_points):
     dst_points = np.array([[0, 1], [1, 1], [1, 0], [0, 0]], dtype=np.float32)
@@ -120,7 +121,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.serial is None:
         if args.camera2:
-            args.serial = '099A11EE'
+            args.serial = CAMERA_SERIALS[1]
         else:
-            args.serial = 'E4298F4E'
+            args.serial = CAMERA_SERIALS[0]
     Annotator(args.serial, center=args.center).run()

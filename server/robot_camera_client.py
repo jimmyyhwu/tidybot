@@ -5,10 +5,11 @@ from pathlib import Path
 from queue import Queue
 from threading import Thread
 import cv2 as cv
+from constants import ROBOT_HOSTNAME_PREFIX, CONN_AUTHKEY
 
 def handle_object_detection(queue):
     try:
-        object_detector_conn = Client(('localhost', 6003), authkey=b'secret password')
+        object_detector_conn = Client(('localhost', 6003), authkey=CONN_AUTHKEY)
         categories = ['clothing', 'toy']
     except ConnectionRefusedError:
         object_detector_conn = None
@@ -22,11 +23,11 @@ def handle_object_detection(queue):
         time.sleep(0.001)
 
 def main(args):
-    hostname = f'iprl-bot{args.robot_num}'
+    hostname = f'{ROBOT_HOSTNAME_PREFIX}{args.robot_num}'
     robot_idx = args.robot_num - 1
     port = 6010 + robot_idx
     window_name = 'out'
-    conn = Client((hostname, port), authkey=b'secret password')
+    conn = Client((hostname, port), authkey=CONN_AUTHKEY)
 
     queue = Queue()
     Thread(target=handle_object_detection, args=(queue,), daemon=True).start()

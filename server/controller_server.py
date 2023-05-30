@@ -10,6 +10,8 @@ from threading import Thread
 import matplotlib.pyplot as plt
 import numpy as np
 from camera_server import CameraServer
+from constants import CONN_AUTHKEY
+from constants import CAMERA_SERIALS
 from marker_detector_server import MarkerDetectorServer
 from marker_detector_client import RobotVisualizer
 
@@ -97,8 +99,8 @@ class ControllerServer:
         self.base_pose = (0, 0, 0)
 
         # Connections to client and robot
-        self.client_listener = Listener(('0.0.0.0', 6004 + robot_idx), authkey=b'secret password')
-        self.robot_listener = Listener(('0.0.0.0', 6007 + robot_idx), authkey=b'secret password')
+        self.client_listener = Listener(('0.0.0.0', 6004 + robot_idx), authkey=CONN_AUTHKEY)
+        self.robot_listener = Listener(('0.0.0.0', 6007 + robot_idx), authkey=CONN_AUTHKEY)
 
         # Queue for passing commands from client to the robot
         self.queue = Queue(maxsize=1)
@@ -216,7 +218,7 @@ def main(args):
     # Start camera servers
     def start_camera_server(serial, port):
         CameraServer(serial, port=port).run()
-    for serial, port in [('E4298F4E', 6000), ('099A11EE', 6001)]:
+    for serial, port in [(CAMERA_SERIALS[0], 6000), (CAMERA_SERIALS[1], 6001)]:
         Process(target=start_camera_server, args=(serial, port), daemon=True).start()
 
     # Wait for camera servers to be ready

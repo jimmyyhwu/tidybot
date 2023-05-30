@@ -433,7 +433,7 @@ class MoveJController:
         bins = np.r_[np.arange(MoveJController.CYCLIC_STEP_SIZE, 11 * MoveJController.CYCLIC_STEP_SIZE, MoveJController.CYCLIC_STEP_SIZE), np.inf]
         print('Cyclic step times:', np.histogram(step_times, bins=bins))
 
-        # import pickle, socket
+        # import pickle
         # output_path = f'joint-states.pkl'
         # with open(output_path, 'wb') as f:
         #     pickle.dump(data, f)

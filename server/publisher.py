@@ -2,10 +2,11 @@ import argparse
 import time
 from multiprocessing.connection import Listener
 from threading import Thread
+from constants import CONN_AUTHKEY
 
 class Publisher:
     def __init__(self, hostname='localhost', port=6000):
-        self.listener = Listener((hostname, port), authkey=b'secret password')
+        self.listener = Listener((hostname, port), authkey=CONN_AUTHKEY)
         self.data = None
         self.timestamp = None
 

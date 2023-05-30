@@ -14,7 +14,8 @@ import cv2 as cv
 import numpy as np
 import utils
 from camera_server import CameraServer
-from constants import CAMERA_HEIGHT
+from constants import CAMERA_SERIALS, CAMERA_HEIGHT
+from constants import CONN_AUTHKEY
 from constants import FLOOR_LENGTH, FLOOR_WIDTH
 from constants import ROBOT_WIDTH, ROBOT_HEIGHT
 from controller_client import ControllerClient
@@ -290,7 +291,7 @@ class Demo:
         controller = ControllerClient(self.robot_idx)
 
         # Set up object detection
-        object_detector_conn = Client(('localhost', 6003), authkey=b'secret password')
+        object_detector_conn = Client(('localhost', 6003), authkey=CONN_AUTHKEY)
         if self.debug:
             visualizer = ObjectDetectorVisualizer()
 
@@ -404,7 +405,7 @@ def main(args):
     # Start camera servers
     def start_camera_server(serial, port):
         CameraServer(serial, port=port).run()
-    for serial, port in [('E4298F4E', 6000), ('099A11EE', 6001)]:
+    for serial, port in [(CAMERA_SERIALS[0], 6000), (CAMERA_SERIALS[1], 6001)]:
         Process(target=start_camera_server, args=(serial, port), daemon=True).start()
 
     # Wait for camera servers to be ready

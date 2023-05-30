@@ -1,5 +1,8 @@
 import cv2 as cv
 
+ROBOT_HOSTNAME_PREFIX = 'iprl-bot'
+CONN_AUTHKEY = b'secret password'
+
 ################################################################################
 # Board and markers
 
@@ -19,6 +22,14 @@ MARKER_IDS = [10, 13, 17, 21, 23, 30, 37, 41, 42, 45, 48, 49]
 ################################################################################
 # Camera
 
+CAMERA_SERIALS = [
+    'E4298F4E',  # Top camera
+    '099A11EE',  # Bottom camera
+]
+CAMERA_FOCUS = 0
+CAMERA_TEMPERATURE = 3900
+CAMERA_EXPOSURE = 77  # 77 is best, 156 is slightly worse, 312 results in motion blur
+CAMERA_GAIN = 50  # Increments of 10
 CAMERA_HEIGHT = 2.71  # 271 cm
 PIXELS_PER_M = 500
 

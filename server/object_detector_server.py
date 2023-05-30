@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from PIL import Image
+from constants import CONN_AUTHKEY
 try:
     import clip
     from vild import VildDetector
@@ -81,7 +82,7 @@ class ObjectDetectorVisualizer:
 
 class ObjectDetectorServer:
     def __init__(self, hostname='0.0.0.0', port=6003, debug=False):
-        self.listener = Listener((hostname, port), authkey=b'secret password')
+        self.listener = Listener((hostname, port), authkey=CONN_AUTHKEY)
         self.lock = Lock()
 
         # Set up ViLD object detector

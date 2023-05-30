@@ -9,6 +9,7 @@ from threading import Thread
 import cv2 as cv
 import numpy as np
 import utils
+from constants import CAMERA_SERIALS, CAMERA_FOCUS, CAMERA_TEMPERATURE, CAMERA_EXPOSURE, CAMERA_GAIN
 from publisher import Publisher
 
 class CameraServer(Publisher):
@@ -46,10 +47,10 @@ class CameraServer(Publisher):
             if self.queue.empty():
                 image = self.get_image()
                 self.queue.put((time.time(), image))
-                assert self.cap.get(cv.CAP_PROP_EXPOSURE) == 77
-                assert self.cap.get(cv.CAP_PROP_GAIN) == 50
-                assert self.cap.get(cv.CAP_PROP_TEMPERATURE) == 3900
-                assert self.cap.get(cv.CAP_PROP_FOCUS) == 0
+                assert self.cap.get(cv.CAP_PROP_FOCUS) == CAMERA_FOCUS
+                assert self.cap.get(cv.CAP_PROP_TEMPERATURE) == CAMERA_TEMPERATURE
+                assert self.cap.get(cv.CAP_PROP_EXPOSURE) == CAMERA_EXPOSURE
+                assert self.cap.get(cv.CAP_PROP_GAIN) == CAMERA_GAIN
             time.sleep(0.0001)
 
     def get_data(self):
@@ -73,9 +74,9 @@ class CameraServer(Publisher):
 def main(args):
     if args.serial is None:
         if args.camera2:
-            args.serial = '099A11EE'
+            args.serial = CAMERA_SERIALS[1]
         else:
-            args.serial = 'E4298F4E'
+            args.serial = CAMERA_SERIALS[0]
     CameraServer(args.serial, port=args.port).run()
 
 if __name__ == '__main__':

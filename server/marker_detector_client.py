@@ -7,6 +7,7 @@ import time
 from multiprocessing.connection import Client
 import matplotlib.pyplot as plt
 import numpy as np
+from constants import CONN_AUTHKEY
 from constants import NUM_FLOOR_TILES_X, NUM_FLOOR_TILES_Y, FLOOR_TILE_SIZE, FLOOR_LENGTH, FLOOR_WIDTH, NUM_ROBOTS, ROBOT_WIDTH
 
 class RobotVisualizer:
@@ -66,7 +67,7 @@ class DebugVisualizer:
             print(f'Warning: Found {len(debug_data)} debug lines but only first 4 will be drawn.')
 
 def main(args):
-    conn = Client(('localhost', 6002), authkey=b'secret password')
+    conn = Client(('localhost', 6002), authkey=CONN_AUTHKEY)
     visualizers = [RobotVisualizer(robot_idx) for robot_idx in range(NUM_ROBOTS)]
     if args.debug:
         debug_visualizer = DebugVisualizer()

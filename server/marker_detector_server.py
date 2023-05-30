@@ -11,6 +11,7 @@ import constants
 import utils
 from camera_client import CameraClient
 from camera_server import CameraServer
+from constants import CAMERA_SERIALS
 from publisher import Publisher
 
 def get_angle_offsets():
@@ -169,9 +170,9 @@ class MarkerDetectorServer(Publisher):
         super().__init__(hostname=hostname, port=port)
         self.debug = debug
         if top_only:
-            self.detectors = [Detector('top_only', 'E4298F4E', 6000)]
+            self.detectors = [Detector('top_only', CAMERA_SERIALS[0], 6000)]
         else:
-            self.detectors = [Detector('top', 'E4298F4E', 6000), Detector('bottom', '099A11EE', 6001)]
+            self.detectors = [Detector('top', CAMERA_SERIALS[0], 6000), Detector('bottom', CAMERA_SERIALS[1], 6001)]
 
     def get_data(self):
         data = {'poses': {}}
@@ -198,7 +199,7 @@ def main(args):
     # Start camera servers
     def start_camera_server(serial, port):
         CameraServer(serial, port=port).run()
-    for serial, port in [('E4298F4E', 6000), ('099A11EE', 6001)]:
+    for serial, port in [(CAMERA_SERIALS[0], 6000), (CAMERA_SERIALS[1], 6001)]:
         Process(target=start_camera_server, args=(serial, port), daemon=True).start()
         if args.top_only:
             break

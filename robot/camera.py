@@ -2,6 +2,8 @@ import socket
 from multiprocessing.connection import Listener
 from pathlib import Path
 import cv2 as cv
+from constants import ROBOT_HOSTNAME_PREFIX, CONN_AUTHKEY
+from constants import CAMERA_SERIALS, CAMERA_FOCUS, CAMERA_TEMPERATURE, CAMERA_EXPOSURE, CAMERA_GAIN
 
 def get_camera_params(serial):
     camera_params_file_path = Path('camera_params') / f'{serial}.yml'
@@ -29,10 +31,10 @@ def get_video_cap(serial, frame_width, frame_height):
     # Read several frames to let settings (especially gain/exposure) stabilize
     for _ in range(30):
         cap.read()
-        cap.set(cv.CAP_PROP_FOCUS, 0)  # Fixed focus
-        cap.set(cv.CAP_PROP_TEMPERATURE, 3900)  # Fixed white balance
-        cap.set(cv.CAP_PROP_GAIN, 10)  # Fixed gain
-        cap.set(cv.CAP_PROP_EXPOSURE, 156)  # Fixed exposure
+        cap.set(cv.CAP_PROP_FOCUS, CAMERA_FOCUS)  # Fixed focus
+        cap.set(cv.CAP_PROP_TEMPERATURE, CAMERA_TEMPERATURE)  # Fixed white balance
+        cap.set(cv.CAP_PROP_EXPOSURE, CAMERA_EXPOSURE)  # Fixed exposure
+        cap.set(cv.CAP_PROP_GAIN, CAMERA_GAIN)  # Fixed gain
 
     # Check all settings match expected
     assert cap.get(cv.CAP_PROP_FRAME_WIDTH) == frame_width
@@ -41,26 +43,26 @@ def get_video_cap(serial, frame_width, frame_height):
     assert cap.get(cv.CAP_PROP_AUTOFOCUS) == 0
     assert cap.get(cv.CAP_PROP_AUTO_WB) == 0
     assert cap.get(cv.CAP_PROP_AUTO_EXPOSURE) == 1
-    assert cap.get(cv.CAP_PROP_FOCUS) == 0
-    assert cap.get(cv.CAP_PROP_TEMPERATURE) == 3900
-    assert cap.get(cv.CAP_PROP_GAIN) == 10
-    assert cap.get(cv.CAP_PROP_EXPOSURE) == 156
+    assert cap.get(cv.CAP_PROP_FOCUS) == CAMERA_FOCUS
+    assert cap.get(cv.CAP_PROP_TEMPERATURE) == CAMERA_TEMPERATURE
+    assert cap.get(cv.CAP_PROP_EXPOSURE) == CAMERA_EXPOSURE
+    assert cap.get(cv.CAP_PROP_GAIN) == CAMERA_GAIN
 
     return cap
 
 class Camera:
     def __init__(self, robot_idx):
-        serial = {0: '634093BE', 1: '44251E9E', 2:'7E841E9E'}[robot_idx]
+        serial = CAMERA_SERIALS[robot_idx]
         image_width, image_height, camera_matrix, dist_coeffs = get_camera_params(serial)
         self.cap = get_video_cap(serial, image_width, image_height)
         self.map_x, self.map_y = cv.initUndistortRectifyMap(camera_matrix, dist_coeffs, None, camera_matrix, (image_width, image_height), cv.CV_32FC1)
         self.image_size = (image_width // 2, image_height // 2)
 
     def get_encoded_image(self):
-        assert self.cap.get(cv.CAP_PROP_EXPOSURE) == 156
-        assert self.cap.get(cv.CAP_PROP_GAIN) == 10
-        assert self.cap.get(cv.CAP_PROP_TEMPERATURE) == 3900
-        assert self.cap.get(cv.CAP_PROP_FOCUS) == 0
+        assert self.cap.get(cv.CAP_PROP_FOCUS) == CAMERA_FOCUS
+        assert self.cap.get(cv.CAP_PROP_TEMPERATURE) == CAMERA_TEMPERATURE
+        assert self.cap.get(cv.CAP_PROP_EXPOSURE) == CAMERA_EXPOSURE
+        assert self.cap.get(cv.CAP_PROP_GAIN) == CAMERA_GAIN
 
         # Read new frame
         image = None
@@ -85,7 +87,7 @@ class Camera:
 class CameraServer:
     def __init__(self, camera, hostname='0.0.0.0', port=6010):
         self.camera = camera
-        self.listener = Listener((hostname, port), authkey=b'secret password')
+        self.listener = Listener((hostname, port), authkey=CONN_AUTHKEY)
 
     def run(self):
         address, port = self.listener.address
@@ -102,7 +104,7 @@ class CameraServer:
 
 def main():
     hostname = socket.gethostname()
-    assert hostname.startswith('iprl-bot')
+    assert hostname.startswith(ROBOT_HOSTNAME_PREFIX)
     robot_num = int(hostname[-1])
     robot_idx = robot_num - 1
     port = 6010 + robot_idx

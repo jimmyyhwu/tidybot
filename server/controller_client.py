@@ -3,10 +3,11 @@
 
 import argparse
 from multiprocessing.connection import Client
+from constants import CONN_AUTHKEY
 
 class ControllerClient:
     def __init__(self, robot_idx):
-        self.conn = Client(('localhost', 6004 + robot_idx), authkey=b'secret password')
+        self.conn = Client(('localhost', 6004 + robot_idx), authkey=CONN_AUTHKEY)
 
     def get_controller_data(self):
         self.conn.send('controller_data')
@@ -24,7 +25,10 @@ class ControllerClient:
 def main(args):
     robot_idx = args.robot_num - 1
     client = ControllerClient(robot_idx)
-    client.send_command('move', [(-0.5, 0.5), (0.5, 0.5), (0.5, -0.5), (-0.5, -0.5), (-0.5, 0.5)])
+    client.execute_command({
+        'primitive_name': 'move',
+        'waypoints': [(-0.5, 0.5), (0.5, 0.5), (0.5, -0.5), (-0.5, -0.5), (-0.5, 0.5)],
+    })
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

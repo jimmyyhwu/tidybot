@@ -33,7 +33,22 @@ The following steps should be run on the mobile base computer:
     sudo udevadm trigger
     ```
 
-5. See the [`driver`](driver) directory for mobile base driver setup
+5. Get the serial number of the camera using either of the following commands:
+
+    ```bash
+    lsusb -v -d 046d:0843 | grep iSerial
+    udevadm info -n video0 | grep ID_SERIAL_SHORT
+    ```
+
+6. Modify [`constants.py`](constants.py) to reflect your setup. These values may potentially need to be modified:
+
+    * `SERVER_HOSTNAME`
+    * `ROBOT_HOSTNAME_PREFIX`
+    * `REDIS_PASSWORD`
+    * `ARM_HEADING_COMPENSATION`
+    * `CAMERA_SERIALS`
+
+7. See the [`driver`](driver) directory for mobile base driver setup
 
 ## Camera Setup
 

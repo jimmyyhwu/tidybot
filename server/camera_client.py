@@ -7,6 +7,7 @@ from multiprocessing import resource_tracker, shared_memory
 from multiprocessing.connection import Client
 import cv2 as cv
 import numpy as np
+from constants import CONN_AUTHKEY
 
 # See https://bugs.python.org/issue38119
 def remove_shm_from_resource_tracker():
@@ -29,7 +30,7 @@ def remove_shm_from_resource_tracker():
 class CameraClient:
     def __init__(self, port):
         # Connect to camera server
-        self.conn = Client(('localhost', port), authkey=b'secret password')
+        self.conn = Client(('localhost', port), authkey=CONN_AUTHKEY)
 
         # Set up shared memory block for reading camera images
         self.conn.send(None)

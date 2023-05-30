@@ -165,7 +165,7 @@ python controller.py --debug
 
 ### Mobile Base Accuracy
 
-The marker detection setup should output 2D robot pose estimates with centimeter-level accuracy. For instance, our setup can reliably pick up small Lego Duplo blocks (32 mm x 32 mm) from the floor. Inaccurate marker detection can be due to many reasons, such as inaccurate camera alignment or suboptimal camera settings (see `get_video_cap` in [`utils.py`](server/utils.py)). Also note that the mobile base motors should be calibrated (`.motor_cal.txt`) for more accurate movement.
+The marker detection setup should output 2D robot pose estimates with centimeter-level accuracy. For instance, our setup can reliably pick up small Lego Duplo blocks (32 mm x 32 mm) from the floor. Inaccurate marker detection can be due to many reasons, such as inaccurate camera alignment or suboptimal camera settings (e.g., exposure and gain, see `get_video_cap` in [`utils.py`](server/utils.py)). Also note that the mobile base motors should be calibrated (`.motor_cal.txt`) for more accurate movement.
 
 ### Arm Accuracy
 
@@ -186,8 +186,8 @@ To kill all processes using the occupied ports, you can use the [`clear-ports.sh
 ```
 
 For reference, here are all of the ports used by this codebase:
-* `6000`: Camera server (serial: `E4298F4E`)
-* `6001`: Camera server (serial: `099A11EE`)
+* `6000`: Camera server (top camera)
+* `6001`: Camera server (bottom camera)
 * `6002`: Marker detector server
 * `6003`: Object detector server
 * `6004`: Robot 1 controller server

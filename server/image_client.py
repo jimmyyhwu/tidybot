@@ -8,6 +8,7 @@ import cv2 as cv
 import numpy as np
 import utils
 from camera_client import CameraClient
+from constants import CAMERA_SERIALS
 from constants import PIXELS_PER_M, FLOOR_LENGTH, FLOOR_WIDTH
 
 def compute_transformation_matrix(src_points, image_width, image_height):
@@ -34,9 +35,9 @@ class CameraClientWrapper:
 class ImageClient:
     def __init__(self, top_only=False, port1=6000, port2=6001, scale_factor=1.0):
         if top_only:
-            self.cameras = [CameraClientWrapper('E4298F4E', port1, scale_factor=scale_factor)]
+            self.cameras = [CameraClientWrapper(CAMERA_SERIALS[0], port1, scale_factor=scale_factor)]
         else:
-            self.cameras = [CameraClientWrapper('E4298F4E', port1, scale_factor=scale_factor), CameraClientWrapper('099A11EE', port2, scale_factor=scale_factor)]
+            self.cameras = [CameraClientWrapper(CAMERA_SERIALS[0], port1, scale_factor=scale_factor), CameraClientWrapper(CAMERA_SERIALS[1], port2, scale_factor=scale_factor)]
         image_width = self.cameras[0].image_width
         image_height = sum(camera.image_height for camera in self.cameras)
         self.image_shape = (image_height, image_width)

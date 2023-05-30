@@ -35,18 +35,29 @@ The following steps should be run on the workstation:
     pip install gsutil==5.14 easydict==1.10 pyyaml==6.0 jupyter==1.0.0
     ```
 
+4. Get the serial numbers of the two overhead cameras using either of the following commands:
+
+    ```bash
+    lsusb -v -d 046d:0843 | grep iSerial
+    udevadm info -n video0 | grep ID_SERIAL_SHORT
+    ```
+
+5. Modify [`constants.py`](constants.py) to reflect your setup. These values may potentially need to be modified:
+
+    * ``ROBOT_HOSTNAME_PREFIX``
+    * ``CAMERA_SERIALS``
+    * ``CAMERA_HEIGHT``
+    * ``ROBOT_WIDTH``
+    * ``ROBOT_HEIGHT``
+    * ``ROBOT_DIAG``
+
 ## Usage
 
 The following sections describe the process of setting up marker detection and object detection from scratch. To get started with a setup that already works, see the "TidyBot Quickstart" section of the main [`README`](../README.md).
 
 We use two ceiling-mounted overhead cameras to detect fiducial markers installed on robots in the scene to get real-time 2D robot poses with centimeter-level precision. The camera we use is the [Logitech C930e webcam](https://www.amazon.com/Logitech-C930e-1080P-Video-Webcam/dp/B00CRJWW2G). Note that even though the C930e supports 1080p, we run it at 720p, as we found that 720p is faster and was sufficient to get centimeter-level accuracy.
 
-The code uses the serial number of your camera as an identifier for `cv.VideoCapture` and for saving and loading camera parameters. On Ubuntu 20, you can get the serial number of your camera using either of the following commands:
-
-```bash
-lsusb -v -d 046d:0843 | grep iSerial
-udevadm info -n video0 | grep ID_SERIAL_SHORT
-```
+The code uses the serial number of your camera as an identifier for `cv.VideoCapture` and for saving and loading camera parameters.
 
 ### Camera Calibration
 

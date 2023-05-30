@@ -16,6 +16,8 @@ from queue import Queue
 from kortex_api.Exceptions.KServerException import KServerException
 from redis import Redis
 from camera import Camera
+from constants import SERVER_HOSTNAME, ROBOT_HOSTNAME_PREFIX, CONN_AUTHKEY, REDIS_PASSWORD
+from constants import ARM_HEADING_COMPENSATION
 from kinova import KinovaArm
 
 def distance(pt1, pt2):
@@ -47,9 +49,9 @@ def intersect(d, f, r, use_t1=False):
 class RedisClient:
     def __init__(self):
         hostname = socket.gethostname()
-        assert hostname.startswith('iprl-bot')
+        assert hostname.startswith(ROBOT_HOSTNAME_PREFIX)
         self.bot_num = int(hostname[-1])
-        self.client = Redis(f'iprl-bot{self.bot_num}', password='secret password', decode_responses=True)
+        self.client = Redis(f'{ROBOT_HOSTNAME_PREFIX}{self.bot_num}', password=REDIS_PASSWORD, decode_responses=True)
 
     def get_pose(self):
         return tuple(map(float, self.client.get(f'mmp::bot{self.bot_num}::veh::sensor::x').split(' ')))
@@ -185,7 +187,7 @@ class BaseController:
             self.running = True
 
             # Robot pose from marker detection
-            marker_detector_conn = Client(('bohg-ws-14', 6002), authkey=b'secret password')
+            marker_detector_conn = Client((SERVER_HOSTNAME, 6002), authkey=CONN_AUTHKEY)
             marker_detector_conn.send(None)
 
             goal_reached_steps = 0
@@ -555,8 +557,8 @@ class ArmController:
 
                     arm_command = self.queue.get()
 
-                    # Arm-dependent heading compensation (arm asset tags - {0: 'none', 1: '000007 402760', 2: '000007 402746'})
-                    arm_command['target_arm_heading'] += {0: -0.7, 1: 0.2, 2: 0.7}[self.robot_idx]
+                    # Arm-dependent heading compensation
+                    arm_command['target_arm_heading'] += ARM_HEADING_COMPENSATION[self.robot_idx]
 
                     # Execute command
                     self.target_ee_pos = arm_command['target_ee_pos']
@@ -652,7 +654,7 @@ class Controller:
         self.categories = []
         try:
             self.camera = Camera(robot_idx)
-            self.object_detector_conn = Client(('bohg-ws-14', 6003), authkey=b'secret password')
+            self.object_detector_conn = Client((SERVER_HOSTNAME, 6003), authkey=CONN_AUTHKEY)
             self.queue = Queue()
             self.object_detector_conn.send({'encoded_image': self.camera.get_encoded_image(), 'categories': self.categories})  # Warm up the server
             self.object_detector_conn.recv()
@@ -663,7 +665,7 @@ class Controller:
             print('Could not set up object detection, falling back to random selection from object categories')
 
         # Controller server
-        self.server_conn = Client(('bohg-ws-14', 6007 + robot_idx), authkey=b'secret password')
+        self.server_conn = Client((SERVER_HOSTNAME, 6007 + robot_idx), authkey=CONN_AUTHKEY)
 
         # Logging
         log_dir = 'logs'
