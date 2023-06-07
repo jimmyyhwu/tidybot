@@ -131,6 +131,8 @@ These are the controls used to run the demo:
 * If necessary, use the convenience stop to kill the controller
 * If necessary, use the e-stop to cut power to the robot (the mobile base computer will stay on)
 
+Note: If keypresses are not registering, make sure that the demo interface is the active window.
+
 ---
 
 To load a different scenario (default is `test`), use the `--scenario-name` argument:

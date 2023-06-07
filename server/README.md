@@ -35,14 +35,23 @@ The following steps should be run on the workstation:
     pip install gsutil==5.14 easydict==1.10 pyyaml==6.0 jupyter==1.0.0
     ```
 
-4. Get the serial numbers of the two overhead cameras using either of the following commands:
+4. Enable access to the overhead cameras:
+
+    ```bash
+    sudo cp 99-webcam.rules /etc/udev/rules.d/99-webcam.rules
+    sudo udevadm control --reload-rules
+    sudo service udev restart
+    sudo udevadm trigger
+    ```
+
+5. Get the serial numbers of the two overhead cameras using either of the following commands:
 
     ```bash
     lsusb -v -d 046d:0843 | grep iSerial
     udevadm info -n video0 | grep ID_SERIAL_SHORT
     ```
 
-5. Modify [`constants.py`](constants.py) to reflect your setup. These values may potentially need to be modified:
+6. Modify [`constants.py`](constants.py) to reflect your setup. These values may potentially need to be modified:
 
     * ``ROBOT_HOSTNAME_PREFIX``
     * ``CAMERA_SERIALS``

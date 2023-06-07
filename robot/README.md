@@ -40,7 +40,22 @@ The following steps should be run on the mobile base computer:
     udevadm info -n video0 | grep ID_SERIAL_SHORT
     ```
 
-6. Modify [`constants.py`](constants.py) to reflect your setup. These values may potentially need to be modified:
+6. Allow members of the `realtime` group to set real-time priority for processes (such as for [`kinova.py`](kinova.py)):
+
+    ```bash
+    sudo cp 99-realtime.conf /etc/security/limits.d/99-realtime.conf
+    sudo addgroup realtime
+    ```
+
+7. Add the current user to the `realtime` group:
+
+    ```bash
+    sudo usermod -aG realtime $USER
+    ```
+
+    Note that these changes do not take effect until after the current user logs out and logs back in.
+
+8. Modify [`constants.py`](constants.py) to reflect your setup. These values may potentially need to be modified:
 
     * `SERVER_HOSTNAME`
     * `ROBOT_HOSTNAME_PREFIX`
@@ -48,7 +63,7 @@ The following steps should be run on the mobile base computer:
     * `ARM_HEADING_COMPENSATION`
     * `CAMERA_SERIALS`
 
-7. See the [`driver`](driver) directory for mobile base driver setup
+9. See the [`driver`](driver) directory for mobile base driver setup
 
 ## Camera Setup
 

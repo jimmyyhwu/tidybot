@@ -17,15 +17,7 @@ The following steps should be run on the mobile base computer:
     git apply driver.patch
     ```
 
-3. Copy motor offsets to the location expected by the driver:
-
-    ```bash
-    cp motor-offsets-1.txt ~/Mobile_Manipulation_Dev/bin/.motor_cal.txt
-    ```
-
-    Note: There are 3 mobile bases. Replace `1` with `2` or `3` accordingly.
-
-4. Build the driver code:
+3. Build the driver code:
 
     ```bash
     cd  ~/Mobile_Manipulation_Dev
@@ -33,3 +25,11 @@ The following steps should be run on the mobile base computer:
     cd build
     cmake .. && make
     ```
+
+4. Copy motor offsets to the location expected by the driver:
+
+    ```bash
+    cp motor-offsets-$(hostname | rev | cut -c1).txt ~/Mobile_Manipulation_Dev/bin/.motor_cal.txt
+    ```
+
+    Note: `motor-offsets-1.txt` goes with mobile base #1, `motor-offsets-2.txt` with mobile base #2, etc.
