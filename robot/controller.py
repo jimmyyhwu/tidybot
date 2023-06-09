@@ -627,6 +627,7 @@ class DummyArmController:
 class Controller:
     def __init__(self, debug=False):
         self.state = 'idle'  # States: idle, moving, manipulating
+        self.start_time = time.time()
 
         # Base controller
         try:
@@ -772,7 +773,7 @@ class Controller:
         if self.camera is not None:
             threading.Thread(target=self.handle_object_detection, daemon=True).start()
 
-        self.server_conn.send({'state': self.state})
+        self.server_conn.send({'state': self.state, 'start_time': self.start_time})
         curr_command = None
         last_time = time.time()
         while self.base_controller.running:
@@ -787,7 +788,7 @@ class Controller:
             new_command = None
             if self.server_conn.poll():
                 new_command = self.server_conn.recv()
-                controller_data = {'state': self.state}
+                controller_data = {'state': self.state, 'start_time': self.start_time}
                 if self.camera is not None:
                     controller_data['detected_object'] = self.detected_object
                 elif len(self.categories) > 0:

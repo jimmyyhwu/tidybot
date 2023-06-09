@@ -95,7 +95,7 @@ class DebugVisualizer(TrajectoryVisualizer):
 
 class ControllerServer:
     def __init__(self, robot_idx, debug=False):
-        self.controller_data = {'state': 'idle'}
+        self.controller_data = {'state': 'idle', 'start_time': None}
         self.base_pose = (0, 0, 0)
 
         # Connections to client and robot

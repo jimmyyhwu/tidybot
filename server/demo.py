@@ -316,6 +316,7 @@ class Demo:
         autonomous_running = False
         detection_image_sent = False
         last_time = time.time()
+        controller_state_time = None
         while True:
             step_time = time.time() - last_time
             if step_time > 0.5:  # 2 Hz
@@ -324,6 +325,9 @@ class Demo:
 
             # Update robot state
             controller_data = controller.get_controller_data()  # 30 ms
+            if controller_data['start_time'] != controller_state_time:  # Controller was restarted
+                controller_state_time = controller_data['start_time']
+                autonomous_running = False
             if controller_data['state'] == 'moving':
                 self.robot_state = 'moving'
             elif controller_data['state'] == 'idle' and self.robot_state == 'moving':
@@ -423,9 +427,9 @@ def main(args):
     Process(target=start_controller_server, daemon=True).start()
 
     # Start object detector server
-    def start_object_detector_server():
-        ObjectDetectorServer(hostname='0.0.0.0').run()
-    Process(target=start_object_detector_server, daemon=True).start()
+    # def start_object_detector_server():
+    #     ObjectDetectorServer(hostname='0.0.0.0').run()
+    # Process(target=start_object_detector_server, daemon=True).start()
 
     # Run demo
     Demo(robot_idx, args.scenario_name, debug=args.debug).run()

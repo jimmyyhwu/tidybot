@@ -17,7 +17,9 @@ try:
     import clip
     from vild import VildDetector
 except ModuleNotFoundError:
-    print('Could not import clip and/or VildDetector')
+    import os
+    if not os.environ.get('CONDA_DEFAULT_ENV') == 'tidybot':  # For the main tidybot env, this error is expected
+        print('Could not import clip and/or VildDetector')
 
 class ClipClassifier:
     def __init__(self):
