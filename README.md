@@ -6,6 +6,8 @@ This code release accompanies the following project:
 
 Jimmy Wu, Rika Antonova, Adam Kan, Marion Lepert, Andy Zeng, Shuran Song, Jeannette Bohg, Szymon Rusinkiewicz, Thomas Funkhouser
 
+*IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2023
+
 [Project Page](https://tidybot.cs.princeton.edu) | [PDF](https://tidybot.cs.princeton.edu/paper.pdf) | [arXiv](https://arxiv.org/abs/2305.05658) | [Video](https://youtu.be/iik68a1ztMU)
 
 **Abstract:** For a robot to personalize physical assistance effectively, it must learn user preferences that can be generally reapplied to future scenarios. In this work, we investigate personalization of household cleanup with robots that can tidy up rooms by picking up objects and putting them away. A key challenge is determining the proper place to put each object, as people's preferences can vary greatly depending on personal taste or cultural background. For instance, one person may prefer storing shirts in the drawer, while another may prefer them on the shelf. We aim to build systems that can learn such preferences from just a handful of examples via prior interactions with a particular person. We show that robots can combine language-based planning and perception with the few-shot summarization capabilities of large language models (LLMs) to infer generalized user preferences that are broadly applicable to future interactions. This approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts away 85.0% of objects in real-world test scenarios.
@@ -222,10 +224,10 @@ Be sure to also check the quality and length of the USB extension cable, as USB 
 If you find this work useful for your research, please consider citing:
 
 ```
-@article{wu2023tidybot,
+@inproceedings{wu2023tidybot,
   title = {TidyBot: Personalized Robot Assistance with Large Language Models},
   author = {Wu, Jimmy and Antonova, Rika and Kan, Adam and Lepert, Marion and Zeng, Andy and Song, Shuran and Bohg, Jeannette and Rusinkiewicz, Szymon and Funkhouser, Thomas},
-  journal = {arXiv preprint arXiv:2305.05658},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year = {2023}
 }
 ```
