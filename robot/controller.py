@@ -53,6 +53,12 @@ class RedisClient:
         self.bot_num = int(hostname[-1])
         self.client = Redis(f'{ROBOT_HOSTNAME_PREFIX}{self.bot_num}', password=REDIS_PASSWORD, decode_responses=True)
 
+    def get_driver_version(self):
+        redis_key = f'mmp::bot{self.bot_num}::veh::driver_version'
+        self.client.delete(redis_key)
+        time.sleep(3 * 0.008)  # 3 cycles at 125 Hz
+        return self.client.get(redis_key)
+
     def get_pose(self):
         return tuple(map(float, self.client.get(f'mmp::bot{self.bot_num}::veh::sensor::x').split(' ')))
 
@@ -122,6 +128,9 @@ class BaseController:
         self.redis_client.set_max_velocity(0.5, 0.5, 3.14)
         self.redis_client.set_max_acceleration(0.5, 0.5, 2.36)
         self.robot_idx = self.redis_client.bot_num - 1
+        if self.driver_running:
+            expected_driver_version = '2023-08-17'
+            assert self.redis_client.get_driver_version() == expected_driver_version, f'Please make sure you are running the correct version of the mobile base driver ({expected_driver_version})'
 
         # Control loop
         self.running = False
