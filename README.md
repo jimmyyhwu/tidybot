@@ -6,6 +6,8 @@ This code release accompanies the following project:
 
 Jimmy Wu, Rika Antonova, Adam Kan, Marion Lepert, Andy Zeng, Shuran Song, Jeannette Bohg, Szymon Rusinkiewicz, Thomas Funkhouser
 
+*Autonomous Robots (AuRo) - Special Issue: Large Language Models in Robotics*, 2023
+
 *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2023
 
 [Project Page](https://tidybot.cs.princeton.edu) | [PDF](https://tidybot.cs.princeton.edu/paper.pdf) | [arXiv](https://arxiv.org/abs/2305.05658) | [Video](https://youtu.be/iik68a1ztMU)
@@ -224,10 +226,10 @@ Be sure to also check the quality and length of the USB extension cable, as USB 
 If you find this work useful for your research, please consider citing:
 
 ```
-@inproceedings{wu2023tidybot,
+@article{wu2023tidybot,
   title = {TidyBot: Personalized Robot Assistance with Large Language Models},
   author = {Wu, Jimmy and Antonova, Rika and Kan, Adam and Lepert, Marion and Zeng, Andy and Song, Shuran and Bohg, Jeannette and Rusinkiewicz, Szymon and Funkhouser, Thomas},
-  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  journal = {Autonomous Robots},
   year = {2023}
 }
 ```
