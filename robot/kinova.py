@@ -91,13 +91,13 @@ class KinovaArm:
     def zero(self, blocking=True):
         self._reference_action('Zero', blocking=blocking)
 
-    def move_angular(self, joint_positions, blocking=True):
-        assert len(joint_positions) == self.num_joints
+    def move_angular(self, joint_angles, blocking=True):
+        assert len(joint_angles) == self.num_joints
         action = Base_pb2.Action()
         for i in range(self.num_joints):
             joint_angle = action.reach_joint_angles.joint_angles.joint_angles.add()
             joint_angle.joint_identifier = i
-            joint_angle.value = joint_positions[i]
+            joint_angle.value = joint_angles[i]
         self.end_or_abort_event.clear()
         self.base.ExecuteAction(action)
         if blocking:
@@ -340,12 +340,12 @@ class MoveJController:
 
         return t, pos
 
-    def execute(self, joint_positions, max_vel=60, max_accel=80, max_decel=80, gripper_release_ms=600):
-        assert len(joint_positions) == self.num_joints
+    def execute(self, joint_angles, max_vel=60, max_accel=80, max_decel=80, gripper_release_ms=600):
+        assert len(joint_angles) == self.num_joints
 
         # Compute motion profile
         self.base_feedback = self.base_cyclic.RefreshFeedback()
-        pos_diffs = [((joint_positions[i] - self.base_feedback.actuators[i].position) + 180) % 360 - 180 for i in range(self.num_joints)]
+        pos_diffs = [((joint_angles[i] - self.base_feedback.actuators[i].position) + 180) % 360 - 180 for i in range(self.num_joints)]
         max_pos_diff = max(abs(pos_diff) for pos_diff in pos_diffs)
         _, pos = self.trapezoidal_motion_profile(max_pos_diff, max_vel=max_vel, max_accel=max_accel, max_decel=max_decel)
         self.trajectory = np.zeros((pos.shape[0], self.num_joints), dtype=np.float32)

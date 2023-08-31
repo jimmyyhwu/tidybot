@@ -390,6 +390,7 @@ class ArmController:
         # Arm setup
         self.arm = KinovaArm()
         self.arm.clear_faults()
+        self.arm.set_high_level_servoing()
         self.arm.set_joint_limits(4 * [80] + 3 * [70], [297] + 6 * [150])
         self.arm.set_max_twist_linear_limit()
         self.arm.move_angular([self.arm.get_heading(), 340, 180, 214, 0, 320, 90])

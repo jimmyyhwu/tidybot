@@ -152,7 +152,7 @@ class Demo:
             ignore_boxes.append([min_xy[0], min_xy[1], max_xy[0], max_xy[1]])
 
         # Receptacles
-        # Note: Due to camera perspective distortion, receptacles should be placed near edges of overhead camera image frame
+        # Note: Due to camera perspective distortion, receptacles should not be placed near edges of overhead camera image frame
         for receptacle in self.receptacles.values():
             pos_x, pos_y = receptacle['position']
             dim_x, dim_y = receptacle['dimensions']
@@ -316,7 +316,7 @@ class Demo:
         autonomous_running = False
         detection_image_sent = False
         last_time = time.time()
-        controller_state_time = None
+        controller_start_time = None
         while True:
             step_time = time.time() - last_time
             if step_time > 0.5:  # 2 Hz
@@ -325,8 +325,8 @@ class Demo:
 
             # Update robot state
             controller_data = controller.get_controller_data()  # 30 ms
-            if controller_data['start_time'] != controller_state_time:  # Controller was restarted
-                controller_state_time = controller_data['start_time']
+            if controller_data['start_time'] != controller_start_time:  # Controller was restarted
+                controller_start_time = controller_data['start_time']
                 autonomous_running = False
             if controller_data['state'] == 'moving':
                 self.robot_state = 'moving'

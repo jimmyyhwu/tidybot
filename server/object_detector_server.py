@@ -87,6 +87,14 @@ class ObjectDetectorServer:
         self.listener = Listener((hostname, port), authkey=CONN_AUTHKEY)
         self.lock = Lock()
 
+        # Set up image directory
+        today = datetime.now().strftime('%Y-%m-%d')
+        self.image_dir = Path(f'images/{today}')
+        if not self.image_dir.exists():
+            self.image_dir.mkdir(parents=True)
+        if sum(1 for _ in self.image_dir.iterdir()) > 1000:
+            input(f'Warning: {self.image_dir} contains over 1000 files. Press <Enter> to continue:\n')
+
         # Set up ViLD object detector
         self.detector = VildDetector()
 
@@ -102,13 +110,7 @@ class ObjectDetectorServer:
 
     def forward(self, request):
         # Save JPEG image to file
-        today = datetime.now().strftime('%Y-%m-%d')
-        image_dir = Path(f'images/{today}')
-        if not image_dir.exists():
-            image_dir.mkdir(parents=True)
-        if sum(1 for _ in image_dir.iterdir()) > 1000:
-            print(f'Warning: {image_dir} contains over 1000 files')
-        image_path = str(image_dir / f'image-{int(10 * time.time()) % 100000000}.jpg')
+        image_path = str(self.image_dir / f'image-{int(10 * time.time()) % 100000000}.jpg')
         with open(image_path, 'wb') as f:
             f.write(request['encoded_image'])
 
